@@ -1,0 +1,247 @@
+{
+  "title": "Add Plugins",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "73773bf799d4278b",
+      "text": "Every paragraph-like item in the page's story has a type field that says how it should be displayed. "
+    },
+    {
+      "type": "paragraph",
+      "id": "27933ea3872b8735",
+      "text": "<h3>Use the Plugin"
+    },
+    {
+      "type": "paragraph",
+      "id": "7ed1253c58f544c7",
+      "text": "Click the [+] at the bottom of a page to create a <b>factory</b> item. This item has one of the simplest representations in the page json."
+    },
+    {
+      "type": "paragraph",
+      "id": "bcd61894bf2f6765",
+      "text": "Find the page on your server in the data/pages directory. Edit this file in a programmer's text editor. Find the factory item at the bottom of the story array."
+    },
+    {
+      "type": "paragraph",
+      "id": "7fecf1c9fb90b7c9",
+      "text": "Change the type field to name some new type that may or may not be present in your plugin directory. Add additional keyword-value pairs that may be required by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "66d36858e06ea40d",
+      "text": "<h3>Install the Plugin"
+    },
+    {
+      "type": "paragraph",
+      "id": "569ac030db791c08",
+      "text": "Wiki will load plugin javascript from the client/plugins directory. If you don't have the javascript you need you can snag it elsewhere or write it yourself."
+    },
+    {
+      "type": "paragraph",
+      "id": "72134aebf385f5f2",
+      "text": "Look to [https://github.com/WardCunningham/Smallest-Federated-Wiki/tree/master/client/plugins GitHub] to find cool plugins. Find the raw javascript you need and save it to your own plugins directory."
+    },
+    {
+      "type": "paragraph",
+      "id": "16836f1da49bfd7e",
+      "text": "Write new plugins by copying the style you find in the standard plugins. You can write in javascript or coffeescript. If you use coffeescript then you will need to launch the coffeescript translator to create the javascript that wiki will try to load."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "73773bf799d4278b",
+      "item": {
+        "type": "paragraph",
+        "id": "73773bf799d4278b",
+        "text": "Every paragraph-like item in the page's story has a type field that says how it should be displayed. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7ed1253c58f544c7"
+      },
+      "id": "7ed1253c58f544c7",
+      "type": "add",
+      "after": "73773bf799d4278b"
+    },
+    {
+      "type": "edit",
+      "id": "7ed1253c58f544c7",
+      "item": {
+        "type": "paragraph",
+        "id": "7ed1253c58f544c7",
+        "text": "Click the [+] at the bottom of a page to create a <b>factory</b> item. This item has one of the simplest representations in the page json."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bcd61894bf2f6765"
+      },
+      "id": "bcd61894bf2f6765",
+      "type": "add",
+      "after": "7ed1253c58f544c7"
+    },
+    {
+      "type": "edit",
+      "id": "bcd61894bf2f6765",
+      "item": {
+        "type": "paragraph",
+        "id": "bcd61894bf2f6765",
+        "text": "Find the page on your server in the data/pages directory. Edit this file in a programmer's text editor. Find the factory item at the bottom of the story array."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7fecf1c9fb90b7c9"
+      },
+      "id": "7fecf1c9fb90b7c9",
+      "type": "add",
+      "after": "bcd61894bf2f6765"
+    },
+    {
+      "type": "edit",
+      "id": "7fecf1c9fb90b7c9",
+      "item": {
+        "type": "paragraph",
+        "id": "7fecf1c9fb90b7c9",
+        "text": "Change the type field to name some new type that may or may not be present in your plugin directory. Add additional keyword-value pairs that may be required by the plugin."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "27933ea3872b8735"
+      },
+      "id": "27933ea3872b8735",
+      "type": "add",
+      "after": "7fecf1c9fb90b7c9"
+    },
+    {
+      "type": "edit",
+      "id": "27933ea3872b8735",
+      "item": {
+        "type": "paragraph",
+        "id": "27933ea3872b8735",
+        "text": "<h3>Use the Plugin"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "66d36858e06ea40d"
+      },
+      "id": "66d36858e06ea40d",
+      "type": "add",
+      "after": "7fecf1c9fb90b7c9"
+    },
+    {
+      "type": "edit",
+      "id": "66d36858e06ea40d",
+      "item": {
+        "type": "paragraph",
+        "id": "66d36858e06ea40d",
+        "text": "<h3>Install the Plugin"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "569ac030db791c08"
+      },
+      "id": "569ac030db791c08",
+      "type": "add",
+      "after": "66d36858e06ea40d"
+    },
+    {
+      "type": "edit",
+      "id": "569ac030db791c08",
+      "item": {
+        "type": "paragraph",
+        "id": "569ac030db791c08",
+        "text": "Wiki will load plugin javascript from the client/plugins directory. If you don't have the javascript you need you can snag it elsewhere or write it yourself."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "72134aebf385f5f2"
+      },
+      "id": "72134aebf385f5f2",
+      "type": "add",
+      "after": "569ac030db791c08"
+    },
+    {
+      "type": "edit",
+      "id": "72134aebf385f5f2",
+      "item": {
+        "type": "paragraph",
+        "id": "72134aebf385f5f2",
+        "text": "Look to GitHub to find cool plugins. Find the raw javascript you need and save it to your own plugins directory."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "16836f1da49bfd7e"
+      },
+      "id": "16836f1da49bfd7e",
+      "type": "add",
+      "after": "72134aebf385f5f2"
+    },
+    {
+      "type": "edit",
+      "id": "16836f1da49bfd7e",
+      "item": {
+        "type": "paragraph",
+        "id": "16836f1da49bfd7e",
+        "text": "Write new plugins by copying the style you find in the standard plugins. You can write in javascript or coffeescript. If you use coffeescript then you will need to launch the coffeescript translator to create the javascript that wiki will try to load."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "72134aebf385f5f2",
+      "item": {
+        "type": "paragraph",
+        "id": "72134aebf385f5f2",
+        "text": "Look to [http://github.com/wardcunningham/smallest-federated-wiki GitHub to find cool plugins. Find the raw javascript you need and save it to your own plugins directory."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "72134aebf385f5f2",
+      "item": {
+        "type": "paragraph",
+        "id": "72134aebf385f5f2",
+        "text": "Look to [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub] to find cool plugins. Find the raw javascript you need and save it to your own plugins directory."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "72134aebf385f5f2",
+      "item": {
+        "type": "paragraph",
+        "id": "72134aebf385f5f2",
+        "text": "Look to [https://github.com/WardCunningham/Smallest-Federated-Wiki/tree/master/client/plugins GitHub] to find cool plugins. Find the raw javascript you need and save it to your own plugins directory."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "73773bf799d4278b",
+        "27933ea3872b8735",
+        "7ed1253c58f544c7",
+        "bcd61894bf2f6765",
+        "7fecf1c9fb90b7c9",
+        "66d36858e06ea40d",
+        "569ac030db791c08",
+        "72134aebf385f5f2",
+        "16836f1da49bfd7e"
+      ],
+      "id": "27933ea3872b8735"
+    }
+  ]
+}

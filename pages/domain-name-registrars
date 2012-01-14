@@ -1,0 +1,140 @@
+{
+  "title": "domain-name-registrars",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "de7e1b33a05c6916",
+      "text": "There are a few large and vary many small companies that will register an unused name on your behalf for a yearly fee."
+    },
+    {
+      "type": "paragraph",
+      "id": "bc3b0d3305097d97",
+      "text": "Expect to pay about ten dollars a year. Domains use to cost a lot more than that. If you pay a lot less, expect to be pitched a lot of add-on features that you probably don't want."
+    },
+    {
+      "type": "paragraph",
+      "id": "ce9c154cd2dbde55",
+      "text": "ICANN is the organization that ensures that this process proceeds orderly. They publish  a list of [http://www.icann.org/en/registrars/accredited-list.html accredited registrars]."
+    },
+    {
+      "type": "paragraph",
+      "id": "d7342e944b008071",
+      "text": "Many registrars have exotic features that support people who hold hundreds of names like land speculators. These make getting your first name confusing. Be patient. Explore. "
+    },
+    {
+      "type": "paragraph",
+      "id": "2f5b34c443db4614",
+      "text": "For what it's worth, I've registered wiki.org at [http://www.name.com name.com]."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "de7e1b33a05c6916",
+      "item": {
+        "type": "paragraph",
+        "id": "de7e1b33a05c6916",
+        "text": "There are a few large and vary many small companies that will register an unused name on your behalf for (typically) a yearly fee."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ce9c154cd2dbde55"
+      },
+      "id": "ce9c154cd2dbde55",
+      "type": "add",
+      "after": "de7e1b33a05c6916"
+    },
+    {
+      "type": "edit",
+      "id": "ce9c154cd2dbde55",
+      "item": {
+        "type": "paragraph",
+        "id": "ce9c154cd2dbde55",
+        "text": "ICANN is the organization that ensures that this process proceeds orderly. They publish  a list of [http://www.icann.org/en/registrars/accredited-list.html accredited registrars]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "de7e1b33a05c6916",
+      "item": {
+        "type": "paragraph",
+        "id": "de7e1b33a05c6916",
+        "text": "There are a few large and vary many small companies that will register an unused name on your behalf for a yearly fee."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bc3b0d3305097d97"
+      },
+      "id": "bc3b0d3305097d97",
+      "type": "add",
+      "after": "ce9c154cd2dbde55"
+    },
+    {
+      "type": "edit",
+      "id": "bc3b0d3305097d97",
+      "item": {
+        "type": "paragraph",
+        "id": "bc3b0d3305097d97",
+        "text": "Expect to pay about ten dollars a year. Domains use to cost a lot more than that. If you pay a lot less, expect to be pitched a lot of add-on features that you probably don't want."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "de7e1b33a05c6916",
+        "bc3b0d3305097d97",
+        "ce9c154cd2dbde55"
+      ],
+      "id": "bc3b0d3305097d97"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d7342e944b008071"
+      },
+      "id": "d7342e944b008071",
+      "type": "add",
+      "after": "ce9c154cd2dbde55"
+    },
+    {
+      "type": "edit",
+      "id": "d7342e944b008071",
+      "item": {
+        "type": "paragraph",
+        "id": "d7342e944b008071",
+        "text": "Many registrars have exotic features that support people who hold hundreds of names like land speculators. These make getting your first name confusing. Be patient. Explore. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2f5b34c443db4614"
+      },
+      "id": "2f5b34c443db4614",
+      "type": "add",
+      "after": "d7342e944b008071"
+    },
+    {
+      "type": "edit",
+      "id": "2f5b34c443db4614",
+      "item": {
+        "type": "paragraph",
+        "id": "2f5b34c443db4614",
+        "text": "For what it's worth, wiki.org is registered at [http://www.name.com name.com]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "2f5b34c443db4614",
+      "item": {
+        "type": "paragraph",
+        "id": "2f5b34c443db4614",
+        "text": "For what it's worth, I've registered wiki.org at [http://www.name.com name.com]."
+      }
+    }
+  ]
+}

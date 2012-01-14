@@ -1,0 +1,479 @@
+{
+  "title": "Frequently Asked Questions",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3890c9716d6f099e",
+      "text": "As our end user documentation emerges we can expect there to be many questions. We will collect answers here, organize them and then use this to guide improvements."
+    },
+    {
+      "type": "paragraph",
+      "id": "4521e1c955c930f2",
+      "text": "<b>Is there a better place to ask questions?"
+    },
+    {
+      "type": "paragraph",
+      "id": "780fe6f2b7a367b6",
+      "text": "Developers ask questions and discuss features by posting issues to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]."
+    },
+    {
+      "type": "paragraph",
+      "id": "502a77de33d57368",
+      "text": "We hold meetups occasionally in Portland. Watch [http://calagator.org/ Calagator] for announcements."
+    },
+    {
+      "type": "paragraph",
+      "id": "4ad99c97c04738c4",
+      "text": "A public Google+ video hangout meets Wednesday mornings at 10 am pacific time (UTC +8 in the winter)."
+    },
+    {
+      "type": "paragraph",
+      "id": "ecfec25ad0978a20",
+      "text": "There is a Google Group mailing list. It hasn't caught on."
+    },
+    {
+      "type": "paragraph",
+      "id": "30dad4e5813ec9f8",
+      "text": "<b>Is there some documentation for those letter buttons at the bottom of an article? I see that they are adding up and creating a history, I just don't get what they are doing, what they are for, or what they mean."
+    },
+    {
+      "type": "paragraph",
+      "id": "86518eccdac41d04",
+      "text": "The letters are drawn from the first character of the action perform. The current list of actions are: move, edit, add, remove, and fork."
+    },
+    {
+      "type": "paragraph",
+      "id": "d00e51ae4d4fb141",
+      "text": "<b>In terms of the full vision of the project, when you fork or pull in content from another server in the federation, will you pull in its history also?"
+    },
+    {
+      "type": "paragraph",
+      "id": "e12cef1abc3e2bd4",
+      "text": "Yes. A federated wiki page is its Story and its Journal."
+    },
+    {
+      "type": "paragraph",
+      "id": "3fff55918f0b6ac5",
+      "text": "See [https://github.com/WardCunningham/Smallest-Federated-Wiki/wiki/Concepts Concepts] for basic terminology."
+    },
+    {
+      "type": "paragraph",
+      "id": "27146a6f62a65544",
+      "text": "If the Journal gets long, there are many ways to shorten it. For example, keep only the Forks and Actions since the last Fork"
+    }
+  ],
+  "journal": [
+    {
+      "type": "remove",
+      "id": "1cb436e16cb6de4f"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3890c9716d6f099e"
+      },
+      "id": "3890c9716d6f099e",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "Click the [+] at the bottom of this page to add a question. Double-click the box that appears. Type your question. Press [[Control-S]] to save."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4521e1c955c930f2"
+      },
+      "id": "4521e1c955c930f2",
+      "type": "add",
+      "after": "3890c9716d6f099e"
+    },
+    {
+      "type": "edit",
+      "id": "4521e1c955c930f2",
+      "item": {
+        "type": "paragraph",
+        "id": "4521e1c955c930f2",
+        "text": "<b>Is there a better place to ask questions?"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "502a77de33d57368"
+      },
+      "id": "502a77de33d57368",
+      "type": "add",
+      "after": "4521e1c955c930f2"
+    },
+    {
+      "type": "edit",
+      "id": "502a77de33d57368",
+      "item": {
+        "type": "paragraph",
+        "id": "502a77de33d57368",
+        "text": "We hold meetups occasionally in Portland. Watch Calagator for announcements."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "30dad4e5813ec9f8"
+      },
+      "id": "30dad4e5813ec9f8",
+      "type": "add",
+      "after": "502a77de33d57368"
+    },
+    {
+      "type": "edit",
+      "id": "30dad4e5813ec9f8",
+      "item": {
+        "type": "paragraph",
+        "id": "30dad4e5813ec9f8",
+        "text": "<b>Is there some documentation for those letter buttons at the bottom of an article? I see that they are adding up and creating a history, I just don't get what they are doing, what they are for, or what they mean."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d00e51ae4d4fb141"
+      },
+      "id": "d00e51ae4d4fb141",
+      "type": "add",
+      "after": "30dad4e5813ec9f8"
+    },
+    {
+      "type": "edit",
+      "id": "d00e51ae4d4fb141",
+      "item": {
+        "type": "paragraph",
+        "id": "d00e51ae4d4fb141",
+        "text": "<b>In terms of the full vision of the project, when you fork or pull in content from another server in the federation, will you pull in its history also?"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecfec25ad0978a20"
+      },
+      "id": "ecfec25ad0978a20",
+      "type": "add",
+      "after": "d00e51ae4d4fb141"
+    },
+    {
+      "type": "edit",
+      "id": "ecfec25ad0978a20",
+      "item": {
+        "type": "paragraph",
+        "id": "ecfec25ad0978a20",
+        "text": "There is a Google Group mailing list. It hasn't caught on."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f180629a52ec3f74"
+      },
+      "id": "f180629a52ec3f74",
+      "type": "add",
+      "after": "d00e51ae4d4fb141"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e12cef1abc3e2bd4"
+      },
+      "id": "e12cef1abc3e2bd4",
+      "type": "add",
+      "after": "d00e51ae4d4fb141"
+    },
+    {
+      "type": "edit",
+      "id": "f180629a52ec3f74",
+      "item": {
+        "type": "paragraph",
+        "id": "f180629a52ec3f74",
+        "text": "The letters were ment to be icons. For now we extract the first letter of action type: m for move, e for edit, etc."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "e12cef1abc3e2bd4",
+      "item": {
+        "type": "paragraph",
+        "id": "e12cef1abc3e2bd4",
+        "text": "Yes. A wiki page is its Story and its Journal."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3fff55918f0b6ac5"
+      },
+      "id": "3fff55918f0b6ac5",
+      "type": "add",
+      "after": "e12cef1abc3e2bd4"
+    },
+    {
+      "type": "edit",
+      "id": "3fff55918f0b6ac5",
+      "item": {
+        "type": "paragraph",
+        "id": "3fff55918f0b6ac5",
+        "text": "See [https://github.com/WardCunningham/Smallest-Federated-Wiki/wiki/Concepts Concepts]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3fff55918f0b6ac5",
+      "item": {
+        "type": "paragraph",
+        "id": "3fff55918f0b6ac5",
+        "text": "See [https://github.com/WardCunningham/Smallest-Federated-Wiki/wiki/Concepts Concepts] for basic terminology."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "27146a6f62a65544"
+      },
+      "id": "27146a6f62a65544",
+      "type": "add",
+      "after": "3fff55918f0b6ac5"
+    },
+    {
+      "type": "edit",
+      "id": "27146a6f62a65544",
+      "item": {
+        "type": "paragraph",
+        "id": "27146a6f62a65544",
+        "text": "If the Journal gets long, there are many ways to shorten it. For example, keep only the Forks and Actions since the last Fork"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "Click the [+] at the bottom of this page TWICE to make room for a new question and its answer. Double-click the first box that appears. Type your question. Press [[Control-S]] to save. Come back to see when the answer box gets filled."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "Click the [+] at the bottom of this page TWICE to make room for a new question and its answer. Double-click the first box that appears. Come back to see when the answer box gets filled."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "Click the [+] at the bottom of this page TWICE to make room for a new question and its answer. Double-click the first box that appears. Enter your question. Come back to see when the answer box gets filled."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "502a77de33d57368",
+      "item": {
+        "type": "paragraph",
+        "id": "502a77de33d57368",
+        "text": "We hold meetups occasionally in Portland. Watch [http://calagator.org/ Calagator] for announcements."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "780fe6f2b7a367b6"
+      },
+      "id": "780fe6f2b7a367b6",
+      "type": "add",
+      "after": "ecfec25ad0978a20"
+    },
+    {
+      "type": "move",
+      "order": [
+        "3890c9716d6f099e",
+        "4521e1c955c930f2",
+        "780fe6f2b7a367b6",
+        "502a77de33d57368",
+        "30dad4e5813ec9f8",
+        "d00e51ae4d4fb141",
+        "e12cef1abc3e2bd4",
+        "3fff55918f0b6ac5",
+        "27146a6f62a65544",
+        "f180629a52ec3f74",
+        "ecfec25ad0978a20"
+      ],
+      "id": "780fe6f2b7a367b6"
+    },
+    {
+      "type": "edit",
+      "id": "780fe6f2b7a367b6",
+      "item": {
+        "type": "paragraph",
+        "id": "780fe6f2b7a367b6",
+        "text": "Developers ask questions and discuss features by posting issues to the GitHub project."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "780fe6f2b7a367b6",
+      "item": {
+        "type": "paragraph",
+        "id": "780fe6f2b7a367b6",
+        "text": "Developers ask questions and discuss features by posting issues to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "3890c9716d6f099e",
+        "4521e1c955c930f2",
+        "780fe6f2b7a367b6",
+        "502a77de33d57368",
+        "ecfec25ad0978a20",
+        "30dad4e5813ec9f8",
+        "d00e51ae4d4fb141",
+        "e12cef1abc3e2bd4",
+        "3fff55918f0b6ac5",
+        "27146a6f62a65544",
+        "f180629a52ec3f74"
+      ],
+      "id": "ecfec25ad0978a20"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4ad99c97c04738c4"
+      },
+      "id": "4ad99c97c04738c4",
+      "type": "add",
+      "after": "f180629a52ec3f74"
+    },
+    {
+      "type": "move",
+      "order": [
+        "3890c9716d6f099e",
+        "4521e1c955c930f2",
+        "780fe6f2b7a367b6",
+        "502a77de33d57368",
+        "4ad99c97c04738c4",
+        "ecfec25ad0978a20",
+        "30dad4e5813ec9f8",
+        "d00e51ae4d4fb141",
+        "e12cef1abc3e2bd4",
+        "3fff55918f0b6ac5",
+        "27146a6f62a65544",
+        "f180629a52ec3f74"
+      ],
+      "id": "4ad99c97c04738c4"
+    },
+    {
+      "type": "edit",
+      "id": "4ad99c97c04738c4",
+      "item": {
+        "type": "paragraph",
+        "id": "4ad99c97c04738c4",
+        "text": "A public Google+ video hangout meets Wednesday mornings at 10 am pacific time (UTC +8 in the winter)."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "86518eccdac41d04"
+      },
+      "id": "86518eccdac41d04",
+      "type": "add",
+      "after": "f180629a52ec3f74"
+    },
+    {
+      "type": "edit",
+      "id": "86518eccdac41d04",
+      "item": {
+        "type": "paragraph",
+        "id": "86518eccdac41d04",
+        "text": "The letters are drawn from the first character of the action perform. The current list of actions are: move, edit, add, remove, and fork."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "3890c9716d6f099e",
+        "4521e1c955c930f2",
+        "780fe6f2b7a367b6",
+        "502a77de33d57368",
+        "4ad99c97c04738c4",
+        "ecfec25ad0978a20",
+        "30dad4e5813ec9f8",
+        "f180629a52ec3f74",
+        "d00e51ae4d4fb141",
+        "e12cef1abc3e2bd4",
+        "3fff55918f0b6ac5",
+        "27146a6f62a65544",
+        "86518eccdac41d04"
+      ],
+      "id": "f180629a52ec3f74"
+    },
+    {
+      "type": "move",
+      "order": [
+        "3890c9716d6f099e",
+        "4521e1c955c930f2",
+        "780fe6f2b7a367b6",
+        "502a77de33d57368",
+        "4ad99c97c04738c4",
+        "ecfec25ad0978a20",
+        "30dad4e5813ec9f8",
+        "f180629a52ec3f74",
+        "86518eccdac41d04",
+        "d00e51ae4d4fb141",
+        "e12cef1abc3e2bd4",
+        "3fff55918f0b6ac5",
+        "27146a6f62a65544"
+      ],
+      "id": "86518eccdac41d04"
+    },
+    {
+      "type": "remove",
+      "id": "f180629a52ec3f74"
+    },
+    {
+      "type": "edit",
+      "id": "e12cef1abc3e2bd4",
+      "item": {
+        "type": "paragraph",
+        "id": "e12cef1abc3e2bd4",
+        "text": "Yes. A federated wiki page is its Story and its Journal."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "As our end user documentation emerges we can expect there to be many questions. We will collect answers here, organize them and then eventually improve our documentation."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3890c9716d6f099e",
+      "item": {
+        "type": "paragraph",
+        "id": "3890c9716d6f099e",
+        "text": "As our end user documentation emerges we can expect there to be many questions. We will collect answers here, organize them and then use this to guide improvements."
+      }
+    }
+  ]
+}

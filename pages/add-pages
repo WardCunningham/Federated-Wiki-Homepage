@@ -1,0 +1,67 @@
+{
+  "title": "Add Pages",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8905e6034092f823",
+      "text": "This wiki will create new pages on demand. Create a link to a new page, click that link, presto: new page."
+    },
+    {
+      "type": "paragraph",
+      "id": "ecaf75662021efae",
+      "text": "Think about where one would expect to find a link to the new page. Go to that page and [[Add Text]]. In that page add an internal link to the new page. An internal link is the page name enclosed in double-square brackets."
+    },
+    {
+      "type": "paragraph",
+      "id": "36a43109331a326c",
+      "text": "When you click the new link you will see the new page with a single large gray square <b>factory</b> item in the story. Double-click this and start typing."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "8905e6034092f823",
+      "item": {
+        "type": "paragraph",
+        "id": "8905e6034092f823",
+        "text": "This wiki will create new pages on demand. Create a link to a new page, click that link, presto: new page."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecaf75662021efae"
+      },
+      "id": "ecaf75662021efae",
+      "type": "add",
+      "after": "8905e6034092f823"
+    },
+    {
+      "type": "edit",
+      "id": "ecaf75662021efae",
+      "item": {
+        "type": "paragraph",
+        "id": "ecaf75662021efae",
+        "text": "Think about where one would expect to find a link to the new page. Go to that page and [[Add Text]]. In that page add an internal link to the new page. An internal link is the page name enclosed in double-square brackets."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "36a43109331a326c"
+      },
+      "id": "36a43109331a326c",
+      "type": "add",
+      "after": "ecaf75662021efae"
+    },
+    {
+      "type": "edit",
+      "id": "36a43109331a326c",
+      "item": {
+        "type": "paragraph",
+        "id": "36a43109331a326c",
+        "text": "When you click the new link you will see the new page with a single large gray square <b>factory</b> item in the story. Double-click this and start typing."
+      }
+    }
+  ]
+}

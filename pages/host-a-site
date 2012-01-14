@@ -1,0 +1,318 @@
+{
+  "title": "host-a-site",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ae30536d8ddee04d",
+      "text": "If you want to share your changes with others you will need to host a site where others can find your work. You have many choices."
+    },
+    {
+      "type": "paragraph",
+      "id": "956224f4d672270c",
+      "text": "There are two important parts to any web site: the domain name and the web server. "
+    },
+    {
+      "type": "paragraph",
+      "id": "c54ccbb2786ae52b",
+      "text": "<h3>The Site's Name"
+    },
+    {
+      "type": "paragraph",
+      "id": "f4150c1f06df9b30",
+      "text": "You can reserve a name by registering it with one of the commercial [[Domain Name Registrars]]. The name you will get will be of the form:\n<li>example.com"
+    },
+    {
+      "type": "paragraph",
+      "id": "74cf208388f3f098",
+      "text": "You may have a name set up for you as part of some school, company or project that already has a domain name. These names (called sub-domains) grow to the left and look like:\n<li>john.wiki.example.com"
+    },
+    {
+      "type": "paragraph",
+      "id": "661d37ce449dcbdf",
+      "text": "When sites share equipment it is sometimes necessary to add a number (called a port number) to a name to specify which part of the shared resource hosts your name. Names with port numbers look like:\n<li>example.com:1111"
+    },
+    {
+      "type": "paragraph",
+      "id": "54cc3ad65ffd21f5",
+      "text": "<h3>The Site's Server"
+    },
+    {
+      "type": "paragraph",
+      "id": "17a79863247b3393",
+      "text": "A federated wiki server delivers both programs and content to visitors to be viewed or run \"client-side\" in their web browser. The server is itself a program that runs \"server-side\" to make these deliveries and sometimes (with sufficient permission) make updates to the content."
+    },
+    {
+      "type": "paragraph",
+      "id": "279825a5720f817b",
+      "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers or computers you rent for the purpose. Follow instructions at the project's [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub site]."
+    },
+    {
+      "type": "paragraph",
+      "id": "300ce5c5aa06ee8a",
+      "text": "You may know someone hosting a federated wiki \"farm\" where you can keep your content amidst (but separate from) many other users. Be careful of people offering to host your content for free. This is the first sign that there are other motives involved."
+    },
+    {
+      "type": "paragraph",
+      "id": "f25a865657500025",
+      "text": "You may not need a site if you do not (yet) want to share the changes you make. Your work will be saved through [[Local Editing]]."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "ae30536d8ddee04d",
+      "item": {
+        "type": "paragraph",
+        "id": "ae30536d8ddee04d",
+        "text": "If you want to share your changes with others you will need to host a site where others can find your work. You have many choices."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "956224f4d672270c"
+      },
+      "id": "956224f4d672270c",
+      "type": "add",
+      "after": "ae30536d8ddee04d"
+    },
+    {
+      "type": "edit",
+      "id": "956224f4d672270c",
+      "item": {
+        "type": "paragraph",
+        "id": "956224f4d672270c",
+        "text": "There are two important parts to any web site: the domain name and the web server. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c54ccbb2786ae52b"
+      },
+      "id": "c54ccbb2786ae52b",
+      "type": "add",
+      "after": "956224f4d672270c"
+    },
+    {
+      "type": "edit",
+      "id": "c54ccbb2786ae52b",
+      "item": {
+        "type": "paragraph",
+        "id": "c54ccbb2786ae52b",
+        "text": "<h3>The Site's Name"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f4150c1f06df9b30"
+      },
+      "id": "f4150c1f06df9b30",
+      "type": "add",
+      "after": "c54ccbb2786ae52b"
+    },
+    {
+      "type": "edit",
+      "id": "f4150c1f06df9b30",
+      "item": {
+        "type": "paragraph",
+        "id": "f4150c1f06df9b30",
+        "text": "You can reserve a name by registering it with one of the commercial [[Domain Name Registrars]]. The name you will get will be of the form:\n<li>example.com"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "74cf208388f3f098"
+      },
+      "id": "74cf208388f3f098",
+      "type": "add",
+      "after": "f4150c1f06df9b30"
+    },
+    {
+      "type": "edit",
+      "id": "74cf208388f3f098",
+      "item": {
+        "type": "paragraph",
+        "id": "74cf208388f3f098",
+        "text": "You may have a name set up for you as part of some school, company or project that already has a domain name. These names (called sub-domains) grow to the left and look like:\n<li>john.wiki.example.com"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "661d37ce449dcbdf"
+      },
+      "id": "661d37ce449dcbdf",
+      "type": "add",
+      "after": "74cf208388f3f098"
+    },
+    {
+      "type": "edit",
+      "id": "661d37ce449dcbdf",
+      "item": {
+        "type": "paragraph",
+        "id": "661d37ce449dcbdf",
+        "text": "When sites share equipment it is sometimes necessary to add a number (called a port number) to a name to specify which part of the shared resource hosts your name. Names with port numbers look like:\n<li>example.com:1111"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "54cc3ad65ffd21f5"
+      },
+      "id": "54cc3ad65ffd21f5",
+      "type": "add",
+      "after": "661d37ce449dcbdf"
+    },
+    {
+      "type": "edit",
+      "id": "54cc3ad65ffd21f5",
+      "item": {
+        "type": "paragraph",
+        "id": "54cc3ad65ffd21f5",
+        "text": "<h3>The Site's Web Server"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "17a79863247b3393"
+      },
+      "id": "17a79863247b3393",
+      "type": "add",
+      "after": "54cc3ad65ffd21f5"
+    },
+    {
+      "type": "edit",
+      "id": "17a79863247b3393",
+      "item": {
+        "type": "paragraph",
+        "id": "17a79863247b3393",
+        "text": "A federated wiki server delivers both programs and content to visitors to be viewed or run \"client-side\" in their web browser. The server is itself a program that runs \"server-side\" to make these deliveries and sometimes (with sufficient permission) make updates to the content."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "279825a5720f817b"
+      },
+      "id": "279825a5720f817b",
+      "type": "add",
+      "after": "17a79863247b3393"
+    },
+    {
+      "type": "edit",
+      "id": "279825a5720f817b",
+      "item": {
+        "type": "paragraph",
+        "id": "279825a5720f817b",
+        "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "300ce5c5aa06ee8a"
+      },
+      "id": "300ce5c5aa06ee8a",
+      "type": "add",
+      "after": "279825a5720f817b"
+    },
+    {
+      "type": "edit",
+      "id": "300ce5c5aa06ee8a",
+      "item": {
+        "type": "paragraph",
+        "id": "300ce5c5aa06ee8a",
+        "text": "You may know someone hosting a federated wiki \"farm\" where you can keep your content amidst (but separate from) many other users. Be careful of people offering to host our content for free. This is the first sign that there are other motives involved."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3b36bca405340140"
+      },
+      "id": "3b36bca405340140",
+      "type": "add",
+      "after": "300ce5c5aa06ee8a"
+    },
+    {
+      "type": "remove",
+      "id": "3b36bca405340140"
+    },
+    {
+      "type": "edit",
+      "id": "279825a5720f817b",
+      "item": {
+        "type": "paragraph",
+        "id": "279825a5720f817b",
+        "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers or computers you rent for the purpose."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "279825a5720f817b",
+      "item": {
+        "type": "paragraph",
+        "id": "279825a5720f817b",
+        "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers or computers you rent for the purpose. Follow instructions at the federation's [[http://github.com/"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "279825a5720f817b",
+      "item": {
+        "type": "paragraph",
+        "id": "279825a5720f817b",
+        "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers or computers you rent for the purpose. Follow instructions at the federation's [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub site]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "300ce5c5aa06ee8a",
+      "item": {
+        "type": "paragraph",
+        "id": "300ce5c5aa06ee8a",
+        "text": "You may know someone hosting a federated wiki \"farm\" where you can keep your content amidst (but separate from) many other users. Be careful of people offering to host your content for free. This is the first sign that there are other motives involved."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f25a865657500025"
+      },
+      "id": "f25a865657500025",
+      "type": "add",
+      "after": "300ce5c5aa06ee8a"
+    },
+    {
+      "type": "edit",
+      "id": "f25a865657500025",
+      "item": {
+        "type": "paragraph",
+        "id": "f25a865657500025",
+        "text": "You may not need a site if you do not (yet) want to share the changes you make. Your work will be saved through [[Local Editing]]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "54cc3ad65ffd21f5",
+      "item": {
+        "type": "paragraph",
+        "id": "54cc3ad65ffd21f5",
+        "text": "<h3>The Site's Server"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "279825a5720f817b",
+      "item": {
+        "type": "paragraph",
+        "id": "279825a5720f817b",
+        "text": "You can install the open-source [[Smallest Federated Wiki]] server software on your own computers or computers you rent for the purpose. Follow instructions at the project's [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub site]."
+      }
+    }
+  ]
+}
