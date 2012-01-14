@@ -1,0 +1,131 @@
+{
+  "title": "Origin Server",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "014a48b53d8e7e09",
+      "text": "The server that delivers the client-side javascript that starts you browsing the federated wiki is called the Origin Server. It's special. "
+    },
+    {
+      "type": "paragraph",
+      "id": "560451b26f631758",
+      "text": "A browser can expect javascript to communicate with the Origin Server. However, browser vendors are skeptical of javascript that tries to communicate with other (remote) servers. There are many security and privacy implications. Federated Wiki employs several mechanisms to appear respectable to modern browsers."
+    },
+    {
+      "type": "paragraph",
+      "id": "a5863ae79bd552d9",
+      "text": "<b>Cross Origin Resource Sharing</b> allows a server to specifically permit sharing with browsers running javascript on behalf of a different origin. We expect all federated wiki servers to permit sharing."
+    },
+    {
+      "type": "paragraph",
+      "id": "c2d15c0160a8139c",
+      "text": "<b>Remote Proxy</b> would be when our browser asks the origin server to retrieve the remote page on our behalf. We use remote proxy when following remote links. This gives the origin server an opportunity to cache the remote page but we've yet to offer this. "
+    },
+    {
+      "type": "paragraph",
+      "id": "c1a8ba7c9ab9cf54",
+      "text": "<b>JSONP</b> is a convention used with ajax requests where the requested content is bundled as a script. Strangely running remote javascript is considered safe while reading inert JSON from a non-origin server is not. We don't use JSONP because the origin server cannot know what remote servers a user might visit."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "014a48b53d8e7e09",
+      "item": {
+        "type": "paragraph",
+        "id": "014a48b53d8e7e09",
+        "text": "The server that delivers the client-side javascript that starts you browsing the federated wiki is called the Origin Server. It's special. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "560451b26f631758"
+      },
+      "id": "560451b26f631758",
+      "type": "add",
+      "after": "014a48b53d8e7e09"
+    },
+    {
+      "type": "edit",
+      "id": "560451b26f631758",
+      "item": {
+        "type": "paragraph",
+        "id": "560451b26f631758",
+        "text": "Browsers expect to communicate with the Origin Server. Browsers are skeptical of javascript that tries to communicate with other servers. Federated Wiki employs several mechanisms to appear respectable to modern browsers."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a5863ae79bd552d9"
+      },
+      "id": "a5863ae79bd552d9",
+      "type": "add",
+      "after": "560451b26f631758"
+    },
+    {
+      "type": "edit",
+      "id": "a5863ae79bd552d9",
+      "item": {
+        "type": "paragraph",
+        "id": "a5863ae79bd552d9",
+        "text": "<b>Cross Origin Resource Sharing</b> allows a server to specifically permit sharing with browsers running javascript on behalf of a different origin. We expect all federated wiki servers to permit sharing."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c2d15c0160a8139c"
+      },
+      "id": "c2d15c0160a8139c",
+      "type": "add",
+      "after": "a5863ae79bd552d9"
+    },
+    {
+      "type": "edit",
+      "id": "c2d15c0160a8139c",
+      "item": {
+        "type": "paragraph",
+        "id": "c2d15c0160a8139c",
+        "text": "<b>Remote Proxy</b> would be when our browser asks the origin server to retrieve the remote page on our behalf. We use remote proxy when following remote links. This gives the origin server an opportunity to cache the remote page but we've yet to offer this. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c1a8ba7c9ab9cf54"
+      },
+      "id": "c1a8ba7c9ab9cf54",
+      "type": "add",
+      "after": "c2d15c0160a8139c"
+    },
+    {
+      "type": "edit",
+      "id": "c1a8ba7c9ab9cf54",
+      "item": {
+        "type": "paragraph",
+        "id": "c1a8ba7c9ab9cf54",
+        "text": "JSONP is a convention used with ajax requests where the requested content is bundled as a script. Strangely running remote javascript is considered safe while reading inert JSON from a non-origin server is not. We don't use JSONP because the origin server cannot know what remote servers a user might visit."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "c1a8ba7c9ab9cf54",
+      "item": {
+        "type": "paragraph",
+        "id": "c1a8ba7c9ab9cf54",
+        "text": "<b>JSONP</b> is a convention used with ajax requests where the requested content is bundled as a script. Strangely running remote javascript is considered safe while reading inert JSON from a non-origin server is not. We don't use JSONP because the origin server cannot know what remote servers a user might visit."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "560451b26f631758",
+      "item": {
+        "type": "paragraph",
+        "id": "560451b26f631758",
+        "text": "A browser can expect javascript to communicate with the Origin Server. However, browser vendors are skeptical of javascript that tries to communicate with other (remote) servers. There are many security and privacy implications. Federated Wiki employs several mechanisms to appear respectable to modern browsers."
+      }
+    }
+  ]
+}
