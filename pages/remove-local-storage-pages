@@ -1,0 +1,98 @@
+{
+  "title": "Remove Local Storage Pages",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ca6d4b736b8a4385",
+      "text": "Your changes will be stored in [[Local Storage]] when you edit a page and you have no public place to save."
+    },
+    {
+      "type": "paragraph",
+      "id": "f2174f8b7020732b",
+      "text": "The following is a list of changes you have made to pages from the current [[Origin Server]]."
+    },
+    {
+      "id": "ca824b55462eff23",
+      "type": "changes"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "bae3f1699d23ac59",
+      "item": {
+        "title": "remove-local-storage-pages"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5801cad41f201aeb"
+      },
+      "id": "5801cad41f201aeb",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "5801cad41f201aeb",
+      "item": {
+        "type": "paragraph",
+        "id": "5801cad41f201aeb",
+        "text": "test."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ca6d4b736b8a4385"
+      },
+      "id": "ca6d4b736b8a4385",
+      "type": "add",
+      "after": "ca824b55462eff23"
+    },
+    {
+      "type": "edit",
+      "id": "ca6d4b736b8a4385",
+      "item": {
+        "type": "paragraph",
+        "id": "ca6d4b736b8a4385",
+        "text": "Your changes will be stored in [[Local Storage]] when you edit a page and you have no public place to save."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "ca6d4b736b8a4385",
+        "ca824b55462eff23"
+      ],
+      "id": "ca6d4b736b8a4385"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f2174f8b7020732b"
+      },
+      "id": "f2174f8b7020732b",
+      "type": "add",
+      "after": "ca824b55462eff23"
+    },
+    {
+      "type": "edit",
+      "id": "f2174f8b7020732b",
+      "item": {
+        "type": "paragraph",
+        "id": "f2174f8b7020732b",
+        "text": "The following is a list of changes you have made to pages from the current [[Origin Server]]."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "ca6d4b736b8a4385",
+        "f2174f8b7020732b",
+        "ca824b55462eff23"
+      ],
+      "id": "f2174f8b7020732b"
+    }
+  ]
+}

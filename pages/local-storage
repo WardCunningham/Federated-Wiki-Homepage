@@ -1,0 +1,59 @@
+{
+  "title": "Local Storage",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6f073fe585c551c8",
+      "text": "Modern browsers provide web pages with access to storage local to the compute running the browser. "
+    },
+    {
+      "type": "paragraph",
+      "id": "c66dd74fc45c6d9b",
+      "text": "Federated Wiki will store pages in local storage when it has no other place to write them."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "3c1f5eee401912d5",
+      "item": {
+        "title": "Local Storage"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6f073fe585c551c8"
+      },
+      "id": "6f073fe585c551c8",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "6f073fe585c551c8",
+      "item": {
+        "type": "paragraph",
+        "id": "6f073fe585c551c8",
+        "text": "Modern browsers provide web pages with access to storage local to the compute running the browser. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c66dd74fc45c6d9b"
+      },
+      "id": "c66dd74fc45c6d9b",
+      "type": "add",
+      "after": "6f073fe585c551c8"
+    },
+    {
+      "type": "edit",
+      "id": "c66dd74fc45c6d9b",
+      "item": {
+        "type": "paragraph",
+        "id": "c66dd74fc45c6d9b",
+        "text": "Federated Wiki will store pages in local storage when it has no other place to write them."
+      }
+    }
+  ]
+}

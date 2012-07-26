@@ -1,0 +1,105 @@
+{
+  "title": "Site of Origin",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cf73f7597e761161",
+      "text": "Federated Wiki allows one to view pages from various sites all at once, side by side. However, one site is distinguished as the <i>origin</i>."
+    },
+    {
+      "type": "paragraph",
+      "id": "130d92b292eb06e3",
+      "text": "The javascript and css code that creates the user-interface to the Federated Wiki is loaded from the origin."
+    },
+    {
+      "type": "paragraph",
+      "id": "61f69f8d652c78f4",
+      "text": "The browser associates pages in [[Local Storage]] with the site of origin. Different origins have different storage areas."
+    },
+    {
+      "type": "paragraph",
+      "id": "7212b076f6906fa8",
+      "text": "Click the icon of any page to make its site the site of origin and recover its [[Welcome Visitors Page]]."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "00e3ddb9d7086f0d",
+      "item": {
+        "title": "Site of Origin"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cf73f7597e761161"
+      },
+      "id": "cf73f7597e761161",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "cf73f7597e761161",
+      "item": {
+        "type": "paragraph",
+        "id": "cf73f7597e761161",
+        "text": "Federated Wiki allows one to view pages from various sites all at once, side by side. However, one site is distinguished as the <i>origin</i>."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "130d92b292eb06e3"
+      },
+      "id": "130d92b292eb06e3",
+      "type": "add",
+      "after": "cf73f7597e761161"
+    },
+    {
+      "type": "edit",
+      "id": "130d92b292eb06e3",
+      "item": {
+        "type": "paragraph",
+        "id": "130d92b292eb06e3",
+        "text": "The javascript and css code that creates the user-interface to the Federated Wiki is loaded from the origin."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "61f69f8d652c78f4"
+      },
+      "id": "61f69f8d652c78f4",
+      "type": "add",
+      "after": "130d92b292eb06e3"
+    },
+    {
+      "type": "edit",
+      "id": "61f69f8d652c78f4",
+      "item": {
+        "type": "paragraph",
+        "id": "61f69f8d652c78f4",
+        "text": "The browser associates pages in [[Local Storage]] with the site of origin. Different origins have different storage areas."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7212b076f6906fa8"
+      },
+      "id": "7212b076f6906fa8",
+      "type": "add",
+      "after": "61f69f8d652c78f4"
+    },
+    {
+      "type": "edit",
+      "id": "7212b076f6906fa8",
+      "item": {
+        "type": "paragraph",
+        "id": "7212b076f6906fa8",
+        "text": "Click the icon of any page to make its site the site of origin and recover its [[Welcome Visitors Page]]."
+      }
+    }
+  ]
+}

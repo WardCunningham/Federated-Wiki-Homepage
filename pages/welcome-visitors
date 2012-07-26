@@ -9,7 +9,7 @@
     {
       "type": "paragraph",
       "id": "07ef6b0e53a77dd2",
-      "text": "Read a little bit of [[How To Wiki]]. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Add something to our [[Frequently Asked Questions]]."
+      "text": "Read a little bit of [[How To Wiki]]. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Look for answers in our [[Frequently Asked Questions]]."
     }
   ],
   "journal": [
@@ -310,6 +310,15 @@
     {
       "type": "remove",
       "id": "f2a7762b712791e5"
+    },
+    {
+      "type": "edit",
+      "id": "07ef6b0e53a77dd2",
+      "item": {
+        "type": "paragraph",
+        "id": "07ef6b0e53a77dd2",
+        "text": "Read a little bit of [[How To Wiki]]. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Look for answers in our [[Frequently Asked Questions]]."
+      }
     }
   ],
   "synopsys": "The first federated wiki page written and often first page viewed."

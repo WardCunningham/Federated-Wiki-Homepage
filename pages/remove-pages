@@ -1,0 +1,361 @@
+{
+  "title": "Remove Pages",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "95771ab2a14d76a4",
+      "text": "Federated wiki makes it easy to create new pages. These might be original to your site or copies of pages forked into your own environment. There is not yet any convenient way to delete unwanted pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "4c2bd73763ed514d",
+      "text": "See also How to [[Remove Local Storage Pages]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "92143cea3e5959bd",
+      "text": "<b>Removing Pages at the Command Line"
+    },
+    {
+      "type": "paragraph",
+      "id": "f0b96f18ca9b6ace",
+      "text": "If you have command line access to your own server you can delete unwanted pages by using command line commands."
+    },
+    {
+      "type": "paragraph",
+      "id": "ecfd347cfcdcc841",
+      "text": "Select the <b>data/pages</b> sub directory within your web server's directory. Choose the page you want to remove based on the slug (abbreviation) used to name it in the location bar. Delete the file."
+    },
+    {
+      "type": "paragraph",
+      "id": "ac842fbf89e83cd9",
+      "text": "If your web server is hosting other sites in a <i>farm</i> then you will have to navigate a little further to find the correct <b>pages</b> sub directory."
+    },
+    {
+      "type": "paragraph",
+      "id": "aa73bc39092f4d61",
+      "text": "<b>Removing Page with the Menu"
+    },
+    {
+      "type": "paragraph",
+      "id": "2a93a1ce48283886",
+      "text": "There is not yet a menu for removing unwanted pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "24d762018ebeabb7",
+      "text": "<b>Redirecting Readers to Preferred Pages"
+    },
+    {
+      "type": "paragraph",
+      "id": "405bc289bcdf8ef7",
+      "text": "There is not yet a way to redirect readers to a preferred replacement for a given page."
+    },
+    {
+      "type": "paragraph",
+      "id": "6c311d212dcbfcb5",
+      "text": "It is easy to accidentally create local pages with the same name as desired remote pages. These pages are not easy to circumvent."
+    },
+    {
+      "type": "paragraph",
+      "id": "dd5f0e5d31e22860",
+      "text": "You can bypass an unwanted local page by directing your browser to the remote server. When you start browsing at a remote page then other pages on that site will be preferentially retrieved."
+    },
+    {
+      "type": "paragraph",
+      "id": "35b3f6fb81700d89",
+      "text": "Start browsing at a remote server by clicking its icon at the top left of a federated wiki page."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "95771ab2a14d76a4",
+      "item": {
+        "type": "paragraph",
+        "id": "95771ab2a14d76a4",
+        "text": "Federated wiki makes it easy to create new pages. These might be original to your site or copies of pages forked into your own environment. There is not yet any convenient way to delete unwanted pages."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f0b96f18ca9b6ace"
+      },
+      "id": "f0b96f18ca9b6ace",
+      "type": "add",
+      "after": "95771ab2a14d76a4"
+    },
+    {
+      "type": "edit",
+      "id": "f0b96f18ca9b6ace",
+      "item": {
+        "type": "paragraph",
+        "id": "f0b96f18ca9b6ace",
+        "text": "If you have command line access to your own server you can delete unwanted pages by using command line commands."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "92143cea3e5959bd"
+      },
+      "id": "92143cea3e5959bd",
+      "type": "add",
+      "after": "f0b96f18ca9b6ace"
+    },
+    {
+      "type": "edit",
+      "id": "92143cea3e5959bd",
+      "item": {
+        "type": "paragraph",
+        "id": "92143cea3e5959bd",
+        "text": "<b>Removing Pages at the Command Line"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "95771ab2a14d76a4",
+        "92143cea3e5959bd",
+        "f0b96f18ca9b6ace"
+      ],
+      "id": "92143cea3e5959bd"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecfd347cfcdcc841"
+      },
+      "id": "ecfd347cfcdcc841",
+      "type": "add",
+      "after": "f0b96f18ca9b6ace"
+    },
+    {
+      "type": "edit",
+      "id": "ecfd347cfcdcc841",
+      "item": {
+        "type": "paragraph",
+        "id": "ecfd347cfcdcc841",
+        "text": "Select the <b>data/pages</b> sub directory within your web server's directory. Choose the page you want to remove based on the slug (abbreviation) used to name it in the location bar. Delete the file."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ac842fbf89e83cd9"
+      },
+      "id": "ac842fbf89e83cd9",
+      "type": "add",
+      "after": "ecfd347cfcdcc841"
+    },
+    {
+      "type": "edit",
+      "id": "ac842fbf89e83cd9",
+      "item": {
+        "type": "paragraph",
+        "id": "ac842fbf89e83cd9",
+        "text": "If your web server is hosting other sites in a <i>farm</i> then you will have to navigate a little further to find the correct <b>pages</b> sub directory."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "aa73bc39092f4d61"
+      },
+      "id": "aa73bc39092f4d61",
+      "type": "add",
+      "after": "ac842fbf89e83cd9"
+    },
+    {
+      "type": "edit",
+      "id": "aa73bc39092f4d61",
+      "item": {
+        "type": "paragraph",
+        "id": "aa73bc39092f4d61",
+        "text": "<b>Removing Page with the Menu"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2a93a1ce48283886"
+      },
+      "id": "2a93a1ce48283886",
+      "type": "add",
+      "after": "aa73bc39092f4d61"
+    },
+    {
+      "type": "edit",
+      "id": "2a93a1ce48283886",
+      "item": {
+        "type": "paragraph",
+        "id": "2a93a1ce48283886",
+        "text": "There is not yet a menu for removing unwanted pages."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "24d762018ebeabb7"
+      },
+      "id": "24d762018ebeabb7",
+      "type": "add",
+      "after": "2a93a1ce48283886"
+    },
+    {
+      "type": "edit",
+      "id": "24d762018ebeabb7",
+      "item": {
+        "type": "paragraph",
+        "id": "24d762018ebeabb7",
+        "text": "<b>Redirecting Readers to Preferred Pages"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "405bc289bcdf8ef7"
+      },
+      "id": "405bc289bcdf8ef7",
+      "type": "add",
+      "after": "24d762018ebeabb7"
+    },
+    {
+      "type": "edit",
+      "id": "405bc289bcdf8ef7",
+      "item": {
+        "type": "paragraph",
+        "id": "405bc289bcdf8ef7",
+        "text": "There is not yet a way to redirect readers to a preferred replacement for a given page."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6c311d212dcbfcb5"
+      },
+      "id": "6c311d212dcbfcb5",
+      "type": "add",
+      "after": "405bc289bcdf8ef7"
+    },
+    {
+      "type": "edit",
+      "id": "6c311d212dcbfcb5",
+      "item": {
+        "type": "paragraph",
+        "id": "6c311d212dcbfcb5",
+        "text": "It is easy to accidentally create local pages with the same name as desired remote pages. These pages are not easy to circumvent."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd5f0e5d31e22860"
+      },
+      "id": "dd5f0e5d31e22860",
+      "type": "add",
+      "after": "6c311d212dcbfcb5"
+    },
+    {
+      "type": "edit",
+      "id": "dd5f0e5d31e22860",
+      "item": {
+        "type": "paragraph",
+        "id": "dd5f0e5d31e22860",
+        "text": "You can bypass an unwanted local page by directing your browser to the remote server. When you start browsing at a remote page then other pages on that site will be preferentially retrieved."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "dd5f0e5d31e22860",
+      "item": {
+        "type": "paragraph",
+        "id": "dd5f0e5d31e22860",
+        "text": "You can bypass an unwanted local page by directing your browser to the remote server. When you start browsing at a remote page then other pages on that site will be preferentially retrieved.s"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "dd5f0e5d31e22860",
+      "item": {
+        "type": "paragraph",
+        "id": "dd5f0e5d31e22860",
+        "text": "You can bypass an unwanted local page by directing your browser to the remote server. When you start browsing at a remote page then other pages on that site will be preferentially retrieved."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "35b3f6fb81700d89"
+      },
+      "id": "35b3f6fb81700d89",
+      "type": "add",
+      "after": "dd5f0e5d31e22860"
+    },
+    {
+      "type": "edit",
+      "id": "35b3f6fb81700d89",
+      "item": {
+        "type": "paragraph",
+        "id": "35b3f6fb81700d89",
+        "text": "Start browsing at a remote server by clicking its icon at the top left of a federated wiki page."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "95771ab2a14d76a4",
+      "item": {
+        "type": "paragraph",
+        "id": "95771ab2a14d76a4",
+        "text": "Federated wiki makes it easy to create new pages. These might be original to your site or copies of pages forked into your own environment. There is not yet any convenient way to delete unwanted pages. See How to [[Remove Local Storage Pages]]."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "95771ab2a14d76a4",
+      "item": {
+        "type": "paragraph",
+        "id": "95771ab2a14d76a4",
+        "text": "Federated wiki makes it easy to create new pages. These might be original to your site or copies of pages forked into your own environment. There is not yet any convenient way to delete unwanted pages."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4c2bd73763ed514d"
+      },
+      "id": "4c2bd73763ed514d",
+      "type": "add",
+      "after": "35b3f6fb81700d89"
+    },
+    {
+      "type": "move",
+      "order": [
+        "95771ab2a14d76a4",
+        "4c2bd73763ed514d",
+        "92143cea3e5959bd",
+        "f0b96f18ca9b6ace",
+        "ecfd347cfcdcc841",
+        "ac842fbf89e83cd9",
+        "aa73bc39092f4d61",
+        "2a93a1ce48283886",
+        "24d762018ebeabb7",
+        "405bc289bcdf8ef7",
+        "6c311d212dcbfcb5",
+        "dd5f0e5d31e22860",
+        "35b3f6fb81700d89"
+      ],
+      "id": "4c2bd73763ed514d"
+    },
+    {
+      "type": "edit",
+      "id": "4c2bd73763ed514d",
+      "item": {
+        "type": "paragraph",
+        "id": "4c2bd73763ed514d",
+        "text": "See also How to [[Remove Local Storage Pages]]."
+      }
+    }
+  ]
+}

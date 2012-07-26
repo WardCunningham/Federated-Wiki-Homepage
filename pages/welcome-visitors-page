@@ -1,0 +1,91 @@
+{
+  "title": "Welcome Visitors Page",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a391d2caac02c019",
+      "text": "All Federated Wiki sites have a welcome page. Conventionally this page informs visitors as to who owns the site and to what other resources can be found on it."
+    },
+    {
+      "type": "paragraph",
+      "id": "9b8b16174b3f3446",
+      "text": "The welcome vistors page is rarely forked since the information on it is assumed unique to a specific site. "
+    },
+    {
+      "type": "paragraph",
+      "id": "005d85d870c934f4",
+      "text": "<i>Caution: Do not edit another site's welcome visitor page because this could destroy information on your own welcome page.</i>"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "039f02e7eee0f703",
+      "item": {
+        "title": "Welcome Visitors Page"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a391d2caac02c019"
+      },
+      "id": "a391d2caac02c019",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "a391d2caac02c019",
+      "item": {
+        "type": "paragraph",
+        "id": "a391d2caac02c019",
+        "text": "All Federated Wiki sites have a welcome page. Conventionally this page informs visitors as to who owns the site and to what other resources can be found on it."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9b8b16174b3f3446"
+      },
+      "id": "9b8b16174b3f3446",
+      "type": "add",
+      "after": "a391d2caac02c019"
+    },
+    {
+      "type": "edit",
+      "id": "9b8b16174b3f3446",
+      "item": {
+        "type": "paragraph",
+        "id": "9b8b16174b3f3446",
+        "text": "The welcome vistors page is rarely forked since the information on it is assumed unique to a specific site. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "005d85d870c934f4"
+      },
+      "id": "005d85d870c934f4",
+      "type": "add",
+      "after": "9b8b16174b3f3446"
+    },
+    {
+      "type": "edit",
+      "id": "005d85d870c934f4",
+      "item": {
+        "type": "paragraph",
+        "id": "005d85d870c934f4",
+        "text": "<i>Caution:</i> Do not edit another site's welcome visitor page because this could destroy information on your own welcome page."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "005d85d870c934f4",
+      "item": {
+        "type": "paragraph",
+        "id": "005d85d870c934f4",
+        "text": "<i>Caution: Do not edit another site's welcome visitor page because this could destroy information on your own welcome page.</i>"
+      }
+    }
+  ]
+}

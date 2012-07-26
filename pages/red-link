@@ -1,0 +1,95 @@
+{
+  "title": "Red Link",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c3c1173e10593b78",
+      "text": "Wikipedia will show internal links to non-existant pages in red. This encourages authors to cite pages that they wish existed without leading readers down blind alleys."
+    },
+    {
+      "type": "paragraph",
+      "id": "ea37dde0398f167f",
+      "text": "[http://en.wikipedia.org/wiki/Wikipedia:Red_link Red Link] explained in Wikipedia."
+    },
+    {
+      "type": "paragraph",
+      "id": "c00de27d39d818e8",
+      "text": "Federated wiki does not look for a page in the federation until the link is clicked."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "ca59e5c46001741c",
+      "item": {
+        "title": "Red Link"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c3c1173e10593b78"
+      },
+      "id": "c3c1173e10593b78",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "c3c1173e10593b78",
+      "item": {
+        "type": "paragraph",
+        "id": "c3c1173e10593b78",
+        "text": "Wikipedia will show internal links to non-existant pages in red. This encourages authors to cite pages that they wish existed without leading readers down blind alleys."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ea37dde0398f167f"
+      },
+      "id": "ea37dde0398f167f",
+      "type": "add",
+      "after": "c3c1173e10593b78"
+    },
+    {
+      "type": "edit",
+      "id": "ea37dde0398f167f",
+      "item": {
+        "type": "paragraph",
+        "id": "ea37dde0398f167f",
+        "text": "[http://en.wikipedia.org/wiki/Wikipedia:Red_link Red Link] explained in Wikipedia."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c00de27d39d818e8"
+      },
+      "id": "c00de27d39d818e8",
+      "type": "add",
+      "after": "ea37dde0398f167f"
+    },
+    {
+      "type": "edit",
+      "id": "c00de27d39d818e8",
+      "item": {
+        "type": "paragraph",
+        "id": "c00de27d39d818e8",
+        "text": "Federated wiki does not look for a page in the federation until the link is clicked."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "555b29631a8bedb3"
+      },
+      "id": "555b29631a8bedb3",
+      "type": "add",
+      "after": "c00de27d39d818e8"
+    },
+    {
+      "type": "remove",
+      "id": "555b29631a8bedb3"
+    }
+  ]
+}

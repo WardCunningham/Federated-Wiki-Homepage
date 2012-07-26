@@ -9,7 +9,12 @@
     {
       "type": "paragraph",
       "id": "454f81615e4eb6fd",
-      "text": "<b>Text:</b> Double-click the factory to open the text editor. Proceed as with [[Add Text]] to existing paragraphs."
+      "text": "<b>Text:</b> Double-click the gray to open the text editor. Proceed as you would to [[Add Text]] to existing paragraphs."
+    },
+    {
+      "type": "paragraph",
+      "id": "852db259ef44f561",
+      "text": "<b>Plugins:</b> Click from the factory menu to [[Choose Plugins]] for rendering the text you subsequently type."
     },
     {
       "type": "paragraph",
@@ -20,11 +25,6 @@
       "type": "paragraph",
       "id": "28a96402934ce84a",
       "text": "<b>Citation:</b> Drag the url of another Federated Wiki site to the factory to create a bibliographic citation of that page. The page's <i>synopsis</i> becomes the text of the citation. When absent, the first or second paragraph serves in its stead. See an [[Example Citation]]."
-    },
-    {
-      "type": "paragraph",
-      "id": "1f463487d1a96800",
-      "text": "Many exotic paragraph types can be added by creating factories and then editing the database json representation with a text editor. Each story item has a <b>type</b> field which specifies the plugin used to render it. Look to [[Add Plugins]] for tips for creating new renderings."
     }
   ],
   "journal": [
@@ -144,6 +144,102 @@
         "id": "28a96402934ce84a",
         "text": "<b>Citation:</b> Drag the url of another Federated Wiki site to the factory to create a bibliographic citation of that page. The page's <i>synopsis</i> becomes the text of the citation. When absent, the first or second paragraph serves in its stead. See an [[Example Citation]]."
       }
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "852db259ef44f561",
+        "text": ""
+      },
+      "id": "852db259ef44f561",
+      "type": "add",
+      "after": "454f81615e4eb6fd",
+      "date": 1342306247821
+    },
+    {
+      "type": "edit",
+      "id": "852db259ef44f561",
+      "item": {
+        "type": "paragraph",
+        "id": "852db259ef44f561",
+        "text": "<b>Plugins:</b> Click a choice from the factory menu to create a specialized kind of paragraph. Read How to [[Choose Plugins]]."
+      },
+      "date": 1342306460599
+    },
+    {
+      "type": "edit",
+      "id": "454f81615e4eb6fd",
+      "item": {
+        "type": "paragraph",
+        "id": "454f81615e4eb6fd",
+        "text": "<b>Text:</b> Double-click the gray part of the factory to open the text editor. Proceed as with [[Add Text]] to existing paragraphs."
+      },
+      "date": 1342306488014
+    },
+    {
+      "type": "edit",
+      "id": "454f81615e4eb6fd",
+      "item": {
+        "type": "paragraph",
+        "id": "454f81615e4eb6fd",
+        "text": "<b>Text:</b> Double-click the gray part to open the text editor. Proceed as with [[Add Text]] to existing paragraphs."
+      },
+      "date": 1342306511934
+    },
+    {
+      "type": "remove",
+      "id": "1f463487d1a96800",
+      "date": 1342308294076
+    },
+    {
+      "type": "edit",
+      "id": "852db259ef44f561",
+      "item": {
+        "type": "paragraph",
+        "id": "852db259ef44f561",
+        "text": "<b>Plugins:</b> Click choices from the factory menu to [[Choose Plugins]] to render the text you subsequently type."
+      },
+      "date": 1342310111589
+    },
+    {
+      "type": "edit",
+      "id": "852db259ef44f561",
+      "item": {
+        "type": "paragraph",
+        "id": "852db259ef44f561",
+        "text": "<b>Plugins:</b> Click from the factory menu to [[Choose Plugins]] to render the text you subsequently type."
+      },
+      "date": 1342310143385
+    },
+    {
+      "type": "edit",
+      "id": "852db259ef44f561",
+      "item": {
+        "type": "paragraph",
+        "id": "852db259ef44f561",
+        "text": "<b>Plugins:</b> Click from the factory menu to [[Choose Plugins]] for rendering the text you subsequently type."
+      },
+      "date": 1342310160699
+    },
+    {
+      "type": "edit",
+      "id": "454f81615e4eb6fd",
+      "item": {
+        "type": "paragraph",
+        "id": "454f81615e4eb6fd",
+        "text": "<b>Text:</b> Double-click the gray to open the text editor. Proceed as with [[Add Text]] to existing paragraphs."
+      },
+      "date": 1342310189546
+    },
+    {
+      "type": "edit",
+      "id": "454f81615e4eb6fd",
+      "item": {
+        "type": "paragraph",
+        "id": "454f81615e4eb6fd",
+        "text": "<b>Text:</b> Double-click the gray to open the text editor. Proceed as you would to [[Add Text]] to existing paragraphs."
+      },
+      "date": 1342310214088
     }
   ]
 }

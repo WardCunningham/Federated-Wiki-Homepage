@@ -1,1 +1,62 @@
-{"title":"Command-S","story":[{"type":"paragraph","id":"05e7e8e76fb60d1b","text":"The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page."},{"type":"paragraph","id":"6a02c86bf98ec7bf","text":"On PC computers you may use Alt-S in place of Command-S."}],"journal":[{"type":"edit","id":"05e7e8e76fb60d1b","item":{"type":"paragraph","id":"05e7e8e76fb60d1b","text":"The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page.\n\nOn PC computers you may use Alt-S in place of Command-S."}},{"type":"edit","id":"05e7e8e76fb60d1b","item":{"type":"paragraph","id":"05e7e8e76fb60d1b","text":"The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page."}},{"item":{"type":"factory","id":"6a02c86bf98ec7bf"},"id":"6a02c86bf98ec7bf","type":"add","after":"05e7e8e76fb60d1b"},{"type":"edit","id":"6a02c86bf98ec7bf","item":{"type":"paragraph","id":"6a02c86bf98ec7bf","text":"On PC computers you may use Alt-S in place of Command-S."}}]}
+{
+  "title": "Command-S",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "05e7e8e76fb60d1b",
+      "text": "The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page."
+    },
+    {
+      "type": "paragraph",
+      "id": "6a02c86bf98ec7bf",
+      "text": "On PC or Linux computers you may use Alt-S in place of Command-S."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "05e7e8e76fb60d1b",
+      "item": {
+        "type": "paragraph",
+        "id": "05e7e8e76fb60d1b",
+        "text": "The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page.\n\nOn PC computers you may use Alt-S in place of Command-S."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "05e7e8e76fb60d1b",
+      "item": {
+        "type": "paragraph",
+        "id": "05e7e8e76fb60d1b",
+        "text": "The Command-S key is used to save your work in the paragraph editor. Your work is also saved when you go on to some other part of the page."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6a02c86bf98ec7bf"
+      },
+      "id": "6a02c86bf98ec7bf",
+      "type": "add",
+      "after": "05e7e8e76fb60d1b"
+    },
+    {
+      "type": "edit",
+      "id": "6a02c86bf98ec7bf",
+      "item": {
+        "type": "paragraph",
+        "id": "6a02c86bf98ec7bf",
+        "text": "On PC computers you may use Alt-S in place of Command-S."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6a02c86bf98ec7bf",
+      "item": {
+        "type": "paragraph",
+        "id": "6a02c86bf98ec7bf",
+        "text": "On PC or Linux computers you may use Alt-S in place of Command-S."
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Data Flow Statistics",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f6467babdb703bca",
+      "text": "Wiki pages communicate within and among themselves using data-attributes attached to dom objects."
+    },
+    {
+      "type": "paragraph",
+      "id": "54c7249de082f105",
+      "text": "We show access counts for each <i>get</i>, <i>set</i> or <i>remove</i> and note the <i>kinds</i> of objects to which they are attached."
+    },
+    {
+      "type": "stats",
+      "id": "611f80cd44ca6751"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "f9069e761bb8e9d8",
+      "item": {
+        "title": "Data Flow Statistics"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "611f80cd44ca6751"
+      },
+      "id": "611f80cd44ca6751",
+      "type": "add"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f6467babdb703bca"
+      },
+      "id": "f6467babdb703bca",
+      "type": "add"
+    },
+    {
+      "type": "move",
+      "order": [
+        "f6467babdb703bca",
+        "611f80cd44ca6751"
+      ]
+    },
+    {
+      "type": "edit",
+      "id": "f6467babdb703bca",
+      "item": {
+        "type": "paragraph",
+        "id": "f6467babdb703bca",
+        "text": "Wiki pages communicate within and among themselves using data-attributes attached to dom objects. Here we show access counts for each attribute and note the kinds of objects to which they are attached."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f6467babdb703bca",
+      "item": {
+        "type": "paragraph",
+        "id": "f6467babdb703bca",
+        "text": "Wiki pages communicate within and among themselves using data-attributes attached to dom objects. Here we show access counts for each <i>get</i>, <i>set</i> or <i>remove</i> and note the kinds of objects to which they are attached."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f6467babdb703bca",
+      "item": {
+        "type": "paragraph",
+        "id": "f6467babdb703bca",
+        "text": "Wiki pages communicate within and among themselves using data-attributes attached to dom objects."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "54c7249de082f105"
+      },
+      "id": "54c7249de082f105",
+      "type": "add"
+    },
+    {
+      "type": "move",
+      "order": [
+        "f6467babdb703bca",
+        "54c7249de082f105",
+        "611f80cd44ca6751"
+      ]
+    },
+    {
+      "type": "edit",
+      "id": "54c7249de082f105",
+      "item": {
+        "type": "paragraph",
+        "id": "54c7249de082f105",
+        "text": "We show access counts for each <i>get</i>, <i>set</i> or <i>remove</i> and note the kinds of objects to which they are attached."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "54c7249de082f105",
+      "item": {
+        "type": "paragraph",
+        "id": "54c7249de082f105",
+        "text": "We show access counts for each <i>get</i>, <i>set</i> or <i>remove</i> and note the <i>kinds</i> of objects to which they are attached."
+      }
+    }
+  ]
+}

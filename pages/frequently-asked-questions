@@ -24,7 +24,7 @@
     {
       "type": "paragraph",
       "id": "4ad99c97c04738c4",
-      "text": "A public Google+ video hangout meets Wednesday mornings at 10 am pacific time (UTC +8 in the winter)."
+      "text": "A public Google+ [https://plus.google.com/hangouts/extras/talk.google.com/fedwiki video hangout] meets Wednesday mornings at 10 am pacific time (UTC +8 in the winter)."
     },
     {
       "type": "paragraph",
@@ -60,6 +60,16 @@
       "type": "paragraph",
       "id": "27146a6f62a65544",
       "text": "If the Journal gets long, there are many ways to shorten it. For example, keep only the Forks and Actions since the last Fork"
+    },
+    {
+      "type": "paragraph",
+      "id": "1490900ed0542252",
+      "text": "<b>Do you always make a point of using the full name Smallest Federated Wiki, perhaps to encourage development of something like brand awareness?</b>"
+    },
+    {
+      "type": "paragraph",
+      "id": "f1f7059327604b13",
+      "text": "I use the term <i>Smallest Federated Wiki</i> when referring to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]. I use the term <i>Federated Wiki</i> when referring to the communities that I believe will emerge based on work explored first there. SFW is a reasonable shorthand when referring to that project among those familiar with it."
     }
   ],
   "journal": [
@@ -473,6 +483,122 @@
         "type": "paragraph",
         "id": "3890c9716d6f099e",
         "text": "As our end user documentation emerges we can expect there to be many questions. We will collect answers here, organize them and then use this to guide improvements."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e004e97b04f8ca37"
+      },
+      "id": "e004e97b04f8ca37",
+      "type": "add",
+      "after": "27146a6f62a65544"
+    },
+    {
+      "type": "edit",
+      "id": "e004e97b04f8ca37",
+      "item": {
+        "type": "paragraph",
+        "id": "e004e97b04f8ca37",
+        "text": "<b>Where is this site hosted?"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ebf08224ebd0b95c"
+      },
+      "id": "ebf08224ebd0b95c",
+      "type": "add",
+      "after": "e004e97b04f8ca37"
+    },
+    {
+      "type": "remove",
+      "id": "ebf08224ebd0b95c"
+    },
+    {
+      "type": "remove",
+      "id": "e004e97b04f8ca37"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1490900ed0542252"
+      },
+      "id": "1490900ed0542252",
+      "type": "add",
+      "after": "27146a6f62a65544"
+    },
+    {
+      "type": "edit",
+      "id": "1490900ed0542252",
+      "item": {
+        "type": "paragraph",
+        "id": "1490900ed0542252",
+        "text": "<b>Do you always make a point of using the full name Smallest Federated Wiki, perhaps to encourage development of something like brand awareness?</b>"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f1f7059327604b13"
+      },
+      "id": "f1f7059327604b13",
+      "type": "add",
+      "after": "1490900ed0542252"
+    },
+    {
+      "type": "edit",
+      "id": "f1f7059327604b13",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f7059327604b13",
+        "text": "I use the term Smallest Federated Wiki when referring to this project. I use the term Federated Wiki when referring to the communities that I believe will emerge based on work explored first here. SFW is a reasonable shorthand when referring to this project among those familiar with it. This project has, since day one, been done in public on GitHub. You might enjoy reading some of the first commits."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f1f7059327604b13",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f7059327604b13",
+        "text": "I use the term Smallest Federated Wiki when referring to the [https://github.com/wardcunningham/SmallestFederatedWiki GitHub project]. I use the term Federated Wiki when referring to the communities that I believe will emerge based on work explored first here. SFW is a reasonable shorthand when referring to this project among those familiar with it. This project has, since day one, been done in public on GitHub. You might enjoy reading some of the first commits."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f1f7059327604b13",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f7059327604b13",
+        "text": "I use the term Smallest Federated Wiki when referring to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]. I use the term Federated Wiki when referring to the communities that I believe will emerge based on work explored first there. SFW is a reasonable shorthand when referring to that project among those familiar with it. The project has, since day one, been done in public. You might enjoy reading some of the first commits."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f1f7059327604b13",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f7059327604b13",
+        "text": "I use the term Smallest Federated Wiki when referring to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]. I use the term Federated Wiki when referring to the communities that I believe will emerge based on work explored first there. SFW is a reasonable shorthand when referring to that project among those familiar with it."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f1f7059327604b13",
+      "item": {
+        "type": "paragraph",
+        "id": "f1f7059327604b13",
+        "text": "I use the term <i>Smallest Federated Wiki</i> when referring to the [https://github.com/WardCunningham/Smallest-Federated-Wiki GitHub project]. I use the term <i>Federated Wiki</i> when referring to the communities that I believe will emerge based on work explored first there. SFW is a reasonable shorthand when referring to that project among those familiar with it."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "4ad99c97c04738c4",
+      "item": {
+        "type": "paragraph",
+        "id": "4ad99c97c04738c4",
+        "text": "A public Google+ [https://plus.google.com/hangouts/extras/talk.google.com/fedwiki video hangout] meets Wednesday mornings at 10 am pacific time (UTC +8 in the winter)."
       }
     }
   ]

@@ -1,0 +1,499 @@
+{
+  "title": "add-formatting",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "733b18ceaeadfacc",
+      "text": "In federated wiki we try to use a minimum of formatting. We're especially allergic to page formatting conventions associated with the printed-on-paper pages or the wide-screen-box-model associated with advertising optimized sites."
+    },
+    {
+      "type": "paragraph",
+      "id": "23a67f755abc22c4",
+      "text": "We have, however, noticed the need for a modest amount of emphasis to enhance the structure of even the small pages of our wiki."
+    },
+    {
+      "type": "paragraph",
+      "id": "c3cac146888a7f91",
+      "text": "<i>Caution: Future versions may require that you create an <b>html</b> paragraph to use these tags.</i>"
+    },
+    {
+      "type": "paragraph",
+      "id": "a1de9327aded9956",
+      "text": "<h3>Formatting Headings"
+    },
+    {
+      "type": "paragraph",
+      "id": "e528bf79ea6163c2",
+      "text": "We've found that H3 headings look good on our small pages. We've found that in most cases (but not all) it is not necessary to match H3 tags with closing H3 tags. We'll surely suffer for this laps of structure. ((oh well)."
+    },
+    {
+      "type": "paragraph",
+      "id": "2181830202a9e7c2",
+      "text": "We recommend confining headings to their own paragraphs. This will make it easy to move content in and out of sections using federated wiki's drag-and-drop refactoring."
+    },
+    {
+      "type": "paragraph",
+      "id": "54a147f40945050b",
+      "text": "<h3>Formatting Bullet Lists"
+    },
+    {
+      "type": "paragraph",
+      "id": "9bb9c368e0fa071a",
+      "text": "We've found that bullet lists look best if they are all at a single level and that level is left justified with no indention."
+    },
+    {
+      "type": "paragraph",
+      "id": "ae243d1d03c3ce49",
+      "text": "Create a bullet list by adding LI tags in front of each item. Experience shows that the lists look better if they are all in one paragraph but this breaks the drag-and-drop refactoring."
+    },
+    {
+      "type": "paragraph",
+      "id": "89b56e6aa8ad4d39",
+      "text": "We're drifting away from the use of bullet lists. Perhaps we can make short paragraphs with single links to elaborating pages the norm for things that would normally appear in a list."
+    },
+    {
+      "type": "paragraph",
+      "id": "38a6069d601ee877",
+      "text": "<h3>Formatting Italic and Bold"
+    },
+    {
+      "type": "paragraph",
+      "id": "6a9d1a163ecc8f2d",
+      "text": "We're using the I and B tags to identify text that should be italic or bold. We're adding the closing tag to each span."
+    },
+    {
+      "type": "paragraph",
+      "id": "b51e72ec7b385f32",
+      "text": "Before you add italic or bold, ask yourself, is this phrase properly a new paragraph? Or is this item so important that it should be its own page?"
+    },
+    {
+      "type": "paragraph",
+      "id": "e122c0d8b565ed42",
+      "text": "<h3>Formatting Math"
+    },
+    {
+      "type": "paragraph",
+      "id": "3ebe90a8cb0558b1",
+      "text": "Mathematical expressions look beautiful in LaTeX rendered by [http://www.mathjax.org/ MathJax]. Create a MathJax paragraph by selecting MathJax in the factory menu that appears after pressing the [+] button to create a new paragraph."
+    },
+    {
+      "type": "paragraph",
+      "id": "dd16e478024a5ad0",
+      "text": "Within a MathJax paragraph LaTeX notation is enclosed within escaped parenthesis or escaped square-brackets. Both the left and right parenthesis or bracket must be escaped with a backslash. "
+    },
+    {
+      "type": "paragraph",
+      "id": "f39e22b1f1ca8af9",
+      "text": "Use escaped parenthesis to enclose mathematical expressions that should appear inline within the text of the paragraph."
+    },
+    {
+      "type": "paragraph",
+      "id": "53c8d59f3060c6a6",
+      "text": "Use escaped square-brackets to enclose mathematical expressions that should appear on their own line. If there is introductory explanation of the expression, it is customary to include it within the same wiki paragraph as the expression."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "733b18ceaeadfacc",
+      "item": {
+        "type": "paragraph",
+        "id": "733b18ceaeadfacc",
+        "text": "In federated wiki we try to use a minimum of formatting. We're especially allergic to page formatting conventions associated with the printed-on-paper page or the wide-screen-box-model associated with advertising optimized sites."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "733b18ceaeadfacc",
+      "item": {
+        "type": "paragraph",
+        "id": "733b18ceaeadfacc",
+        "text": "In federated wiki we try to use a minimum of formatting. We're especially allergic to page formatting conventions associated with the printed-on-paper pages or the wide-screen-box-model associated with advertising optimized sites."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "23a67f755abc22c4"
+      },
+      "id": "23a67f755abc22c4",
+      "type": "add",
+      "after": "733b18ceaeadfacc"
+    },
+    {
+      "type": "edit",
+      "id": "23a67f755abc22c4",
+      "item": {
+        "type": "paragraph",
+        "id": "23a67f755abc22c4",
+        "text": "We have, however, noticed the need for a modest amount of emphasis to enhance the structure of even the small pages of our wiki."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a1de9327aded9956"
+      },
+      "id": "a1de9327aded9956",
+      "type": "add",
+      "after": "23a67f755abc22c4"
+    },
+    {
+      "type": "edit",
+      "id": "a1de9327aded9956",
+      "item": {
+        "type": "paragraph",
+        "id": "a1de9327aded9956",
+        "text": "<h3>Formatting Headings"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e528bf79ea6163c2"
+      },
+      "id": "e528bf79ea6163c2",
+      "type": "add",
+      "after": "a1de9327aded9956"
+    },
+    {
+      "type": "edit",
+      "id": "e528bf79ea6163c2",
+      "item": {
+        "type": "paragraph",
+        "id": "e528bf79ea6163c2",
+        "text": "We've found that H3 headings look good on our small pages."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "e528bf79ea6163c2",
+      "item": {
+        "type": "paragraph",
+        "id": "e528bf79ea6163c2",
+        "text": "We've found that H3 headings look good on our small pages. We've found that in most cases (but not all) it is not necessary to match H3 tags with closing H3 tags. We'll surely suffer for this laps of structure. ((oh well)."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2181830202a9e7c2"
+      },
+      "id": "2181830202a9e7c2",
+      "type": "add",
+      "after": "e528bf79ea6163c2"
+    },
+    {
+      "type": "edit",
+      "id": "2181830202a9e7c2",
+      "item": {
+        "type": "paragraph",
+        "id": "2181830202a9e7c2",
+        "text": "We recommend confining headings to their own paragraphs. This will make it easy to move content in and out of sections using federated wiki's drag-and-drop refactoring."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "54a147f40945050b"
+      },
+      "id": "54a147f40945050b",
+      "type": "add",
+      "after": "2181830202a9e7c2"
+    },
+    {
+      "type": "edit",
+      "id": "54a147f40945050b",
+      "item": {
+        "type": "paragraph",
+        "id": "54a147f40945050b",
+        "text": "<h3>Formatting Bullet Lists"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9bb9c368e0fa071a"
+      },
+      "id": "9bb9c368e0fa071a",
+      "type": "add",
+      "after": "54a147f40945050b"
+    },
+    {
+      "type": "edit",
+      "id": "9bb9c368e0fa071a",
+      "item": {
+        "type": "paragraph",
+        "id": "9bb9c368e0fa071a",
+        "text": "We've found that bullet lists look best if they are all at a single level and that level is left justified with no indention."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ae243d1d03c3ce49"
+      },
+      "id": "ae243d1d03c3ce49",
+      "type": "add",
+      "after": "9bb9c368e0fa071a"
+    },
+    {
+      "type": "edit",
+      "id": "ae243d1d03c3ce49",
+      "item": {
+        "type": "paragraph",
+        "id": "ae243d1d03c3ce49",
+        "text": "Create a bullet list by adding LI tags in front of each item. Experience shows that the lists look better if they are all in one paragraph but this breaks the drag-and-drop refactoring."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "89b56e6aa8ad4d39"
+      },
+      "id": "89b56e6aa8ad4d39",
+      "type": "add",
+      "after": "ae243d1d03c3ce49"
+    },
+    {
+      "type": "edit",
+      "id": "89b56e6aa8ad4d39",
+      "item": {
+        "type": "paragraph",
+        "id": "89b56e6aa8ad4d39",
+        "text": "We're drifting away from the use of bullet lists. Perhaps we can make short paragraphs with single links to elaborating pages the norm for things that would normally appear in a list."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "38a6069d601ee877"
+      },
+      "id": "38a6069d601ee877",
+      "type": "add",
+      "after": "89b56e6aa8ad4d39"
+    },
+    {
+      "type": "edit",
+      "id": "38a6069d601ee877",
+      "item": {
+        "type": "paragraph",
+        "id": "38a6069d601ee877",
+        "text": "<h3>Formatting Italic and Bold"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6a9d1a163ecc8f2d"
+      },
+      "id": "6a9d1a163ecc8f2d",
+      "type": "add",
+      "after": "38a6069d601ee877"
+    },
+    {
+      "type": "edit",
+      "id": "6a9d1a163ecc8f2d",
+      "item": {
+        "type": "paragraph",
+        "id": "6a9d1a163ecc8f2d",
+        "text": "We're using the I and B tags to identify text that should be italic or bold. We're adding the closing tag to each span."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b51e72ec7b385f32"
+      },
+      "id": "b51e72ec7b385f32",
+      "type": "add",
+      "after": "6a9d1a163ecc8f2d"
+    },
+    {
+      "type": "edit",
+      "id": "b51e72ec7b385f32",
+      "item": {
+        "type": "paragraph",
+        "id": "b51e72ec7b385f32",
+        "text": "Before you add italic or bold, ask yourself, is this item properly a new paragraph? Or is this item so important that it should be its own page?"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "b51e72ec7b385f32",
+      "item": {
+        "type": "paragraph",
+        "id": "b51e72ec7b385f32",
+        "text": "Before you add italic or bold, ask yourself, is this phrase properly a new paragraph? Or is this item so important that it should be its own page?"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e122c0d8b565ed42"
+      },
+      "id": "e122c0d8b565ed42",
+      "type": "add",
+      "after": "b51e72ec7b385f32"
+    },
+    {
+      "type": "edit",
+      "id": "e122c0d8b565ed42",
+      "item": {
+        "type": "paragraph",
+        "id": "e122c0d8b565ed42",
+        "text": "<h3>Formatting Mathematical Expressions"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "e122c0d8b565ed42",
+      "item": {
+        "type": "paragraph",
+        "id": "e122c0d8b565ed42",
+        "text": "<h3>Formatting Math"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3ebe90a8cb0558b1"
+      },
+      "id": "3ebe90a8cb0558b1",
+      "type": "add",
+      "after": "e122c0d8b565ed42"
+    },
+    {
+      "type": "edit",
+      "id": "3ebe90a8cb0558b1",
+      "item": {
+        "type": "paragraph",
+        "id": "3ebe90a8cb0558b1",
+        "text": "Mathematical expressions look beautiful in LaTeX rendered by MathJax. Create a MathJax paragraph by selecting MathJax in the factory menu that appears after pressing the [+] button to create a new paragraph."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd16e478024a5ad0"
+      },
+      "id": "dd16e478024a5ad0",
+      "type": "add",
+      "after": "3ebe90a8cb0558b1"
+    },
+    {
+      "type": "edit",
+      "id": "dd16e478024a5ad0",
+      "item": {
+        "type": "paragraph",
+        "id": "dd16e478024a5ad0",
+        "text": "Within a MathJax paragraph LaTeX notation is enclosed within escaped parenthesis or escaped square-brackets."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "dd16e478024a5ad0",
+      "item": {
+        "type": "paragraph",
+        "id": "dd16e478024a5ad0",
+        "text": "Within a MathJax paragraph LaTeX notation is enclosed within escaped parenthesis or escaped square-brackets. Both the left and right parenthesis or bracket must be escaped with a backslash. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f39e22b1f1ca8af9"
+      },
+      "id": "f39e22b1f1ca8af9",
+      "type": "add",
+      "after": "dd16e478024a5ad0"
+    },
+    {
+      "type": "edit",
+      "id": "f39e22b1f1ca8af9",
+      "item": {
+        "type": "paragraph",
+        "id": "f39e22b1f1ca8af9",
+        "text": "Use escaped parenthesis to enclose mathematical expressions that should appear inline within the text of the paragraph."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "53c8d59f3060c6a6"
+      },
+      "id": "53c8d59f3060c6a6",
+      "type": "add",
+      "after": "f39e22b1f1ca8af9"
+    },
+    {
+      "type": "edit",
+      "id": "53c8d59f3060c6a6",
+      "item": {
+        "type": "paragraph",
+        "id": "53c8d59f3060c6a6",
+        "text": "Use escaped square-brackets to enclose mathematical expressions that should appear on their own line. If there is introductory explanation of an expression, it is customary to include it within the same wiki paragraph as the expression."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "53c8d59f3060c6a6",
+      "item": {
+        "type": "paragraph",
+        "id": "53c8d59f3060c6a6",
+        "text": "Use escaped square-brackets to enclose mathematical expressions that should appear on their own line. If there is introductory explanation of the expression, it is customary to include it within the same wiki paragraph as the expression."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "3ebe90a8cb0558b1",
+      "item": {
+        "type": "paragraph",
+        "id": "3ebe90a8cb0558b1",
+        "text": "Mathematical expressions look beautiful in LaTeX rendered by [http://www.mathjax.org/ MathJax]. Create a MathJax paragraph by selecting MathJax in the factory menu that appears after pressing the [+] button to create a new paragraph."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c3cac146888a7f91"
+      },
+      "id": "c3cac146888a7f91",
+      "type": "add",
+      "after": "53c8d59f3060c6a6"
+    },
+    {
+      "type": "edit",
+      "id": "c3cac146888a7f91",
+      "item": {
+        "type": "paragraph",
+        "id": "c3cac146888a7f91",
+        "text": "<i>Caution: Future versions may require that you create an <b>html</b> paragraph to use these tags.</i>"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "733b18ceaeadfacc",
+        "23a67f755abc22c4",
+        "c3cac146888a7f91",
+        "a1de9327aded9956",
+        "e528bf79ea6163c2",
+        "2181830202a9e7c2",
+        "54a147f40945050b",
+        "9bb9c368e0fa071a",
+        "ae243d1d03c3ce49",
+        "89b56e6aa8ad4d39",
+        "38a6069d601ee877",
+        "6a9d1a163ecc8f2d",
+        "b51e72ec7b385f32",
+        "e122c0d8b565ed42",
+        "3ebe90a8cb0558b1",
+        "dd16e478024a5ad0",
+        "f39e22b1f1ca8af9",
+        "53c8d59f3060c6a6"
+      ],
+      "id": "c3cac146888a7f91"
+    }
+  ]
+}

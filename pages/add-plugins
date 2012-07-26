@@ -8,6 +8,16 @@
     },
     {
       "type": "paragraph",
+      "id": "1b864089001c0574",
+      "text": "When you [[Choose Plugins]] from the factory menu a properly typed item is added in place of the factory."
+    },
+    {
+      "type": "paragraph",
+      "id": "6ecc7c9a9a6f0d0f",
+      "text": "If you create or copy a paragraph that referes to a plugin you don't have then you can expect it to render as an error message. When adding new plugins one normally starts this way."
+    },
+    {
+      "type": "paragraph",
       "id": "27933ea3872b8735",
       "text": "<h3>Use the Plugin"
     },
@@ -242,6 +252,58 @@
         "16836f1da49bfd7e"
       ],
       "id": "27933ea3872b8735"
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "1b864089001c0574",
+        "text": ""
+      },
+      "id": "1b864089001c0574",
+      "type": "add",
+      "after": "73773bf799d4278b",
+      "date": 1342309375402
+    },
+    {
+      "type": "edit",
+      "id": "1b864089001c0574",
+      "item": {
+        "type": "paragraph",
+        "id": "1b864089001c0574",
+        "text": "When you [[Choose Plugins]] from the factory menu a properly typed item is added in place of the factory."
+      },
+      "date": 1342309528428
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "6ecc7c9a9a6f0d0f",
+        "text": ""
+      },
+      "id": "6ecc7c9a9a6f0d0f",
+      "type": "add",
+      "after": "1b864089001c0574",
+      "date": 1342309528933
+    },
+    {
+      "type": "edit",
+      "id": "6ecc7c9a9a6f0d0f",
+      "item": {
+        "type": "paragraph",
+        "id": "6ecc7c9a9a6f0d0f",
+        "text": "If you create or copy a paragraph that referes to a plugin you don't have then you can expect it to render as an error message."
+      },
+      "date": 1342309699566
+    },
+    {
+      "type": "edit",
+      "id": "6ecc7c9a9a6f0d0f",
+      "item": {
+        "type": "paragraph",
+        "id": "6ecc7c9a9a6f0d0f",
+        "text": "If you create or copy a paragraph that referes to a plugin you don't have then you can expect it to render as an error message. When adding new plugins one normally starts this way."
+      },
+      "date": 1342309728223
     }
   ]
 }

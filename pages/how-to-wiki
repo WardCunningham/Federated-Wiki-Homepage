@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "07ef6b0e53a77dd2",
-      "text": "Read a little bit. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Add something to our [[Frequently Asked Questions]]."
+      "text": "Read a little bit. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Look through our our [[Frequently Asked Questions]]."
     },
     {
       "type": "paragraph",
@@ -15,6 +15,21 @@
       "type": "paragraph",
       "id": "1012dd3528d4c788",
       "text": "How to [[Add Text]] to an existing paragraph."
+    },
+    {
+      "type": "paragraph",
+      "id": "69fd0eba8fefe2aa",
+      "text": "How to [[Add Links]] to a paragraph."
+    },
+    {
+      "type": "paragraph",
+      "id": "1db26c2e0c7ed126",
+      "text": "How to [[Add Formatting]] to a paragraph."
+    },
+    {
+      "type": "paragraph",
+      "id": "208e32f178e91c99",
+      "text": "How to [[Add Weird Characters]] to a paragraph."
     },
     {
       "type": "paragraph",
@@ -33,8 +48,33 @@
     },
     {
       "type": "paragraph",
+      "id": "8bb136a087a9710f",
+      "text": "How to [[Import Documents]] from various sources."
+    },
+    {
+      "type": "paragraph",
+      "id": "243033dc6528eab1",
+      "text": "<h3>How to Remove Content"
+    },
+    {
+      "type": "paragraph",
+      "id": "73e9a16ca95be40e",
+      "text": "How to [[Remove Paragraphs]] and some other editable items."
+    },
+    {
+      "type": "paragraph",
+      "id": "c63dc8ff04ecdc31",
+      "text": "How to [[Remove Pages]] or direct readers to other sites."
+    },
+    {
+      "type": "paragraph",
       "id": "d3a1bd6b0c947378",
       "text": "<h3>How To Improve Wiki"
+    },
+    {
+      "type": "paragraph",
+      "id": "a2bb10949e81f2c6",
+      "text": "How to [[Review Changes]] to any page or site."
     },
     {
       "type": "paragraph",
@@ -349,6 +389,322 @@
         "type": "paragraph",
         "id": "c8fda36855c0da59",
         "text": "How to [[Host a Site]] to share your work."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "243033dc6528eab1"
+      },
+      "id": "243033dc6528eab1",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "edit",
+      "id": "243033dc6528eab1",
+      "item": {
+        "type": "paragraph",
+        "id": "243033dc6528eab1",
+        "text": "<h3>How to Remove Content"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "243033dc6528eab1",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "243033dc6528eab1"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "73e9a16ca95be40e"
+      },
+      "id": "73e9a16ca95be40e",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "73e9a16ca95be40e"
+    },
+    {
+      "type": "edit",
+      "id": "73e9a16ca95be40e",
+      "item": {
+        "type": "paragraph",
+        "id": "73e9a16ca95be40e",
+        "text": "How to [[Remove Paragraphs]] and some other editable items."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c63dc8ff04ecdc31"
+      },
+      "id": "c63dc8ff04ecdc31",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "c63dc8ff04ecdc31"
+    },
+    {
+      "type": "edit",
+      "id": "c63dc8ff04ecdc31",
+      "item": {
+        "type": "paragraph",
+        "id": "c63dc8ff04ecdc31",
+        "text": "How to [[Remove Pages]] or direct readers to other sites."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "208e32f178e91c99"
+      },
+      "id": "208e32f178e91c99",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "edit",
+      "id": "208e32f178e91c99",
+      "item": {
+        "type": "paragraph",
+        "id": "208e32f178e91c99",
+        "text": "How to [[Add Weird Characters]] to a paragraph."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "208e32f178e91c99",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "208e32f178e91c99"
+    },
+    {
+      "type": "edit",
+      "id": "07ef6b0e53a77dd2",
+      "item": {
+        "type": "paragraph",
+        "id": "07ef6b0e53a77dd2",
+        "text": "Read a little bit. Then move on to our [http://sandbox.fed.wiki.org Sandbox] and give your new knowledge a workout. Still confused? Look through our our [[Frequently Asked Questions]]."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1db26c2e0c7ed126"
+      },
+      "id": "1db26c2e0c7ed126",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "edit",
+      "id": "1db26c2e0c7ed126",
+      "item": {
+        "type": "paragraph",
+        "id": "1db26c2e0c7ed126",
+        "text": "How to [[Add Formatting]] to a paragraph."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "1db26c2e0c7ed126",
+        "208e32f178e91c99",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "1db26c2e0c7ed126"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8bb136a087a9710f"
+      },
+      "id": "8bb136a087a9710f",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "1db26c2e0c7ed126",
+        "208e32f178e91c99",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "8bb136a087a9710f",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "8bb136a087a9710f"
+    },
+    {
+      "type": "edit",
+      "id": "8bb136a087a9710f",
+      "item": {
+        "type": "paragraph",
+        "id": "8bb136a087a9710f",
+        "text": "How to [[Import Documents]] from various sources."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "69fd0eba8fefe2aa"
+      },
+      "id": "69fd0eba8fefe2aa",
+      "type": "add",
+      "after": "f2a7762b712791e5"
+    },
+    {
+      "type": "edit",
+      "id": "69fd0eba8fefe2aa",
+      "item": {
+        "type": "paragraph",
+        "id": "69fd0eba8fefe2aa",
+        "text": "How to [[Add Links]] to paragraphs."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "69fd0eba8fefe2aa",
+        "1db26c2e0c7ed126",
+        "208e32f178e91c99",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "8bb136a087a9710f",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ],
+      "id": "69fd0eba8fefe2aa"
+    },
+    {
+      "type": "edit",
+      "id": "69fd0eba8fefe2aa",
+      "item": {
+        "type": "paragraph",
+        "id": "69fd0eba8fefe2aa",
+        "text": "How to [[Add Links]] to a paragraph."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a2bb10949e81f2c6"
+      },
+      "id": "a2bb10949e81f2c6",
+      "type": "add"
+    },
+    {
+      "type": "move",
+      "order": [
+        "07ef6b0e53a77dd2",
+        "d88b9a104822256b",
+        "1012dd3528d4c788",
+        "69fd0eba8fefe2aa",
+        "1db26c2e0c7ed126",
+        "208e32f178e91c99",
+        "fa3e22f363cd93d5",
+        "d03bcc1fd0278522",
+        "4cb87e0352907dfe",
+        "8bb136a087a9710f",
+        "243033dc6528eab1",
+        "73e9a16ca95be40e",
+        "c63dc8ff04ecdc31",
+        "d3a1bd6b0c947378",
+        "a2bb10949e81f2c6",
+        "c8fda36855c0da59",
+        "f2a7762b712791e5"
+      ]
+    },
+    {
+      "type": "edit",
+      "id": "a2bb10949e81f2c6",
+      "item": {
+        "type": "paragraph",
+        "id": "a2bb10949e81f2c6",
+        "text": "How to [[Review Changes]] to any page or site."
       }
     }
   ],

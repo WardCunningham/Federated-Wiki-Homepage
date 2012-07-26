@@ -1,0 +1,381 @@
+{
+  "title": "remove-paragraphs",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "cdc00be7a11fe5e5",
+      "text": "You can remove a paragraph by deleting all the text in the paragraph or by dragging it to some unwanted place."
+    },
+    {
+      "type": "paragraph",
+      "id": "c621087267f70b74",
+      "text": "<b>Remove by Editing"
+    },
+    {
+      "type": "paragraph",
+      "id": "26b3d7ef419ef456",
+      "text": "Double click the paragraph. Use backspace key or [[Command-A]] Delete to remove all characters from the edit window. Press [[Command-S]] or direct focus elsewhere."
+    },
+    {
+      "type": "paragraph",
+      "id": "f61548daa145028c",
+      "text": "Saving an empty paragraph is recognized as a request to delete the paragraph. This action shows up in the journal as <b>r</b> for remove."
+    },
+    {
+      "type": "paragraph",
+      "id": "e4958689d4d5eb3f",
+      "text": "Some other story item types can be removed in a similar way. For example, removing the caption of an image removes the whole image item. "
+    },
+    {
+      "type": "paragraph",
+      "id": "83c3fee75d3a958f",
+      "text": "<b>Remove by Dragging"
+    },
+    {
+      "type": "paragraph",
+      "id": "4e999ea4b6b85b2a",
+      "text": "You can remove any item by dragging it to an unwanted page. Perhaps you have an unwanted page called Trash. Drag unwanted items there and they will be out of your way."
+    },
+    {
+      "type": "paragraph",
+      "id": "8ee8dbacca66d8c6",
+      "text": "Some items, such as unwanted <b>Data</b> items can only be removed this way."
+    },
+    {
+      "type": "paragraph",
+      "id": "e2a8fcf308eb0d04",
+      "text": "You can call up a page called Trash several ways."
+    },
+    {
+      "type": "paragraph",
+      "id": "b7ed59bd8dd7f8b6",
+      "text": "You can add a reference to Trash to your home page. Use Shift-Click to open it beside anything you might be editing."
+    },
+    {
+      "type": "paragraph",
+      "id": "a24b691bf8d1ea77",
+      "text": "You can open a page called Trash by adding the characters /view/trash to the URL in your browser's location bar. Press return to reload all visible wiki pages along with the new Trash page."
+    },
+    {
+      "type": "paragraph",
+      "id": "b251729524cd26b0",
+      "text": "<b>Remove by Menu"
+    },
+    {
+      "type": "paragraph",
+      "id": "c86645b05fda0ee1",
+      "text": "We do not yet have a menu for removing items. Please forgive the inconvenience."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "cdc00be7a11fe5e5",
+      "item": {
+        "type": "paragraph",
+        "id": "cdc00be7a11fe5e5",
+        "text": "You can remove a paragraph by deleting all the text in the paragraph."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "26b3d7ef419ef456"
+      },
+      "id": "26b3d7ef419ef456",
+      "type": "add",
+      "after": "cdc00be7a11fe5e5"
+    },
+    {
+      "type": "edit",
+      "id": "26b3d7ef419ef456",
+      "item": {
+        "type": "paragraph",
+        "id": "26b3d7ef419ef456",
+        "text": "Double click the paragraph. Use backspace or [[Control-A]] [[Delete]] to remove all characters from the edit window. Press [[Control-S]] or direct focus elsewhere."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f61548daa145028c"
+      },
+      "id": "f61548daa145028c",
+      "type": "add",
+      "after": "26b3d7ef419ef456"
+    },
+    {
+      "type": "edit",
+      "id": "f61548daa145028c",
+      "item": {
+        "type": "paragraph",
+        "id": "f61548daa145028c",
+        "text": "Saving an empty paragraph is recognized as a remove action and shows up in the journal as <i>[r]</i>."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f61548daa145028c",
+      "item": {
+        "type": "paragraph",
+        "id": "f61548daa145028c",
+        "text": "Saving an empty paragraph is recognized as <b>r</b> for remove."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f61548daa145028c",
+      "item": {
+        "type": "paragraph",
+        "id": "f61548daa145028c",
+        "text": "Saving an empty paragraph is recognized as a request to delete a paragraph and shows up in the journal as <b>r</b> for remove."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e4958689d4d5eb3f"
+      },
+      "id": "e4958689d4d5eb3f",
+      "type": "add",
+      "after": "f61548daa145028c"
+    },
+    {
+      "type": "edit",
+      "id": "e4958689d4d5eb3f",
+      "item": {
+        "type": "paragraph",
+        "id": "e4958689d4d5eb3f",
+        "text": "Some other story item types can be removed in a similar way. For example, removing the caption of an image removes the whole image item. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "26b3d7ef419ef456",
+      "item": {
+        "type": "paragraph",
+        "id": "26b3d7ef419ef456",
+        "text": "Double click the paragraph. Use backspace key or [[Control-A]] Delete to remove all characters from the edit window. Press [[Control-S]] or direct focus elsewhere."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "26b3d7ef419ef456",
+      "item": {
+        "type": "paragraph",
+        "id": "26b3d7ef419ef456",
+        "text": "Double click the paragraph. Use backspace key or [[Command-A]] Delete to remove all characters from the edit window. Press [[Command-S]] or direct focus elsewhere."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f61548daa145028c",
+      "item": {
+        "type": "paragraph",
+        "id": "f61548daa145028c",
+        "text": "Saving an empty paragraph is recognized as a request to delete the paragraph. This action shows up in the journal as <b>r</b> for remove."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "cdc00be7a11fe5e5",
+      "item": {
+        "type": "paragraph",
+        "id": "cdc00be7a11fe5e5",
+        "text": "You can remove a paragraph by deleting all the text in the paragraph or by dragging it to some unwanted place."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c621087267f70b74"
+      },
+      "id": "c621087267f70b74",
+      "type": "add",
+      "after": "e4958689d4d5eb3f"
+    },
+    {
+      "type": "edit",
+      "id": "c621087267f70b74",
+      "item": {
+        "type": "paragraph",
+        "id": "c621087267f70b74",
+        "text": "<b>Remove by Editing"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "cdc00be7a11fe5e5",
+        "c621087267f70b74",
+        "26b3d7ef419ef456",
+        "f61548daa145028c",
+        "e4958689d4d5eb3f"
+      ],
+      "id": "c621087267f70b74"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "83c3fee75d3a958f"
+      },
+      "id": "83c3fee75d3a958f",
+      "type": "add",
+      "after": "e4958689d4d5eb3f"
+    },
+    {
+      "type": "edit",
+      "id": "83c3fee75d3a958f",
+      "item": {
+        "type": "paragraph",
+        "id": "83c3fee75d3a958f",
+        "text": "<b>Remove by Dragging"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4e999ea4b6b85b2a"
+      },
+      "id": "4e999ea4b6b85b2a",
+      "type": "add",
+      "after": "83c3fee75d3a958f"
+    },
+    {
+      "type": "edit",
+      "id": "4e999ea4b6b85b2a",
+      "item": {
+        "type": "paragraph",
+        "id": "4e999ea4b6b85b2a",
+        "text": "You can remove any item by dragging it to an unwanted page. Perhaps you have an unwanted page called Trash. Drag unwanted items there and they will be out of your way."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e2a8fcf308eb0d04"
+      },
+      "id": "e2a8fcf308eb0d04",
+      "type": "add",
+      "after": "4e999ea4b6b85b2a"
+    },
+    {
+      "type": "edit",
+      "id": "e2a8fcf308eb0d04",
+      "item": {
+        "type": "paragraph",
+        "id": "e2a8fcf308eb0d04",
+        "text": "You can call up a page called Trash several ways."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b7ed59bd8dd7f8b6"
+      },
+      "id": "b7ed59bd8dd7f8b6",
+      "type": "add",
+      "after": "e2a8fcf308eb0d04"
+    },
+    {
+      "type": "edit",
+      "id": "b7ed59bd8dd7f8b6",
+      "item": {
+        "type": "paragraph",
+        "id": "b7ed59bd8dd7f8b6",
+        "text": "You can add a reference to Trash to your home page. Use Shift-Click to open it beside anything you might be editing."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a24b691bf8d1ea77"
+      },
+      "id": "a24b691bf8d1ea77",
+      "type": "add",
+      "after": "b7ed59bd8dd7f8b6"
+    },
+    {
+      "type": "edit",
+      "id": "a24b691bf8d1ea77",
+      "item": {
+        "type": "paragraph",
+        "id": "a24b691bf8d1ea77",
+        "text": "You can open a page called Trash by adding the characters /view/trash to the URL in your browser's location bar. Press return to reload all visible wiki pages along with the new Trash page."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b251729524cd26b0"
+      },
+      "id": "b251729524cd26b0",
+      "type": "add",
+      "after": "a24b691bf8d1ea77"
+    },
+    {
+      "type": "edit",
+      "id": "b251729524cd26b0",
+      "item": {
+        "type": "paragraph",
+        "id": "b251729524cd26b0",
+        "text": "<b>Remove by Menu"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c86645b05fda0ee1"
+      },
+      "id": "c86645b05fda0ee1",
+      "type": "add",
+      "after": "b251729524cd26b0"
+    },
+    {
+      "type": "edit",
+      "id": "c86645b05fda0ee1",
+      "item": {
+        "type": "paragraph",
+        "id": "c86645b05fda0ee1",
+        "text": "We do not yet have a menu for removing items. Please forgive the inconvenience."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8ee8dbacca66d8c6"
+      },
+      "id": "8ee8dbacca66d8c6",
+      "type": "add",
+      "after": "c86645b05fda0ee1"
+    },
+    {
+      "type": "edit",
+      "id": "8ee8dbacca66d8c6",
+      "item": {
+        "type": "paragraph",
+        "id": "8ee8dbacca66d8c6",
+        "text": "Some items, such as unwanted <b>Data</b> items can only be removed this way."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "cdc00be7a11fe5e5",
+        "c621087267f70b74",
+        "26b3d7ef419ef456",
+        "f61548daa145028c",
+        "e4958689d4d5eb3f",
+        "83c3fee75d3a958f",
+        "4e999ea4b6b85b2a",
+        "8ee8dbacca66d8c6",
+        "e2a8fcf308eb0d04",
+        "b7ed59bd8dd7f8b6",
+        "a24b691bf8d1ea77",
+        "b251729524cd26b0",
+        "c86645b05fda0ee1"
+      ],
+      "id": "8ee8dbacca66d8c6"
+    }
+  ]
+}

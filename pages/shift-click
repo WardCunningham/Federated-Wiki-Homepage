@@ -1,0 +1,82 @@
+{
+  "title": "Shift-Click",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "bbc787dc95c2da65",
+      "text": "Use Shift-Click to open a page named by an internal link when you don't want that page to replace pages already opened."
+    },
+    {
+      "type": "paragraph",
+      "id": "d4823e3bf34ae744",
+      "text": "Normally new pages are opened immediately to the right of the page that contained the link to the new page."
+    },
+    {
+      "type": "paragraph",
+      "id": "e918f0f82a5e1404",
+      "text": "A Shift-Click opens a new page to the far right of all already opened pages."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "d47baf13bf5395e1",
+      "item": {
+        "title": "Shift-Click"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "bbc787dc95c2da65"
+      },
+      "id": "bbc787dc95c2da65",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "bbc787dc95c2da65",
+      "item": {
+        "type": "paragraph",
+        "id": "bbc787dc95c2da65",
+        "text": "Use Shift-Click to open a page named by an internal link when you don't want that page to replace pages already opened."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d4823e3bf34ae744"
+      },
+      "id": "d4823e3bf34ae744",
+      "type": "add",
+      "after": "bbc787dc95c2da65"
+    },
+    {
+      "type": "edit",
+      "id": "d4823e3bf34ae744",
+      "item": {
+        "type": "paragraph",
+        "id": "d4823e3bf34ae744",
+        "text": "Normally new pages are opened immediately to the right of the page that contained the link to the new page."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e918f0f82a5e1404"
+      },
+      "id": "e918f0f82a5e1404",
+      "type": "add",
+      "after": "d4823e3bf34ae744"
+    },
+    {
+      "type": "edit",
+      "id": "e918f0f82a5e1404",
+      "item": {
+        "type": "paragraph",
+        "id": "e918f0f82a5e1404",
+        "text": "A Shift-Click opens a new page to the far right of all already opened pages."
+      }
+    }
+  ]
+}

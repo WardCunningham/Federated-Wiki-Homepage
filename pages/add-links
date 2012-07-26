@@ -1,0 +1,393 @@
+{
+  "title": "Add Links",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a1258bb7b80d6b05",
+      "text": "Wiki recognizes two different kinds of links. Both are identified by enclosing text within square brackets."
+    },
+    {
+      "type": "paragraph",
+      "id": "87068abf1e9ca29f",
+      "text": "<i>Note: The examples below show spaces around square brackets for clarity. Do not include those spaces.</i>"
+    },
+    {
+      "type": "paragraph",
+      "id": "e883f699530bf331",
+      "text": "<h3>Internal Links"
+    },
+    {
+      "type": "paragraph",
+      "id": "a82e24f9c663ac13",
+      "text": "A link to another federated wiki page can be created by typing the page name inside double square brackets. It is common practice to use title case conventions when naming pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "2e61559ede16d36e",
+      "text": "<blockquote>\n[ [ Page Title ] ]\n</blockquote>"
+    },
+    {
+      "type": "paragraph",
+      "id": "b9c00dc3ae80ab91",
+      "text": "Internal links are special in several ways. This special behavior is what makes a site a wiki rather than just another website."
+    },
+    {
+      "type": "paragraph",
+      "id": "ecd908092fe78f18",
+      "text": "When clicked, an internal wiki link will open the named page. Usually it opens beside the citing page. A [[Shift-Click]] will add the new page to the far right of all already opened pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "3e82bb4c9610103b",
+      "text": "If an internal link names a page that is not present in the [[Site of Origin]] then wiki looks for clues as to where else to look. When you hover over a link you can see the list of clues that wiki has found."
+    },
+    {
+      "type": "paragraph",
+      "id": "e95edab01e0ee27c",
+      "text": "If wiki cannot find the named page then it will create it. If it can be created in the [[Site of Origin]] then it will. Otherwise it will be created in the browser's [[Local Storage]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "90a24b9a014a79c5",
+      "text": "Some wikis would show an internal link to an absent page as a [[Red Link]] or some other specialized notation. Federated wiki does not make this distinction."
+    },
+    {
+      "type": "paragraph",
+      "id": "0f56b0447677870b",
+      "text": "<h3>External Links</h3>"
+    },
+    {
+      "type": "paragraph",
+      "id": "454f4ac62eef4016",
+      "text": "A link to an ordinary web page is created by enclosing the page URL and descriptive text inside single square brackets."
+    },
+    {
+      "type": "paragraph",
+      "id": "b840648fa4921b91",
+      "text": "<blockquote>\n[ http://example.com An Example ]\n</blockquote>"
+    },
+    {
+      "type": "paragraph",
+      "id": "9ae99bda9e173aee",
+      "text": "When clicked, an external link will open the linked page in a new browser tab or possibly a new browser window."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "e0c3fe930d63431b",
+      "item": {
+        "title": "Add Links"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a1258bb7b80d6b05"
+      },
+      "id": "a1258bb7b80d6b05",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "a1258bb7b80d6b05",
+      "item": {
+        "type": "paragraph",
+        "id": "a1258bb7b80d6b05",
+        "text": "Wiki recognizes two different kinds of links. Both are identified by enclosing text within square brackets."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e883f699530bf331"
+      },
+      "id": "e883f699530bf331",
+      "type": "add",
+      "after": "a1258bb7b80d6b05"
+    },
+    {
+      "type": "edit",
+      "id": "e883f699530bf331",
+      "item": {
+        "type": "paragraph",
+        "id": "e883f699530bf331",
+        "text": "<h3>Internal Links"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a82e24f9c663ac13"
+      },
+      "id": "a82e24f9c663ac13",
+      "type": "add",
+      "after": "e883f699530bf331"
+    },
+    {
+      "type": "edit",
+      "id": "a82e24f9c663ac13",
+      "item": {
+        "type": "paragraph",
+        "id": "a82e24f9c663ac13",
+        "text": "A link to another federated wiki page can be created by typing the page name inside double square brackets. It is common practice to use title case conventions when naming pages."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b9c00dc3ae80ab91"
+      },
+      "id": "b9c00dc3ae80ab91",
+      "type": "add",
+      "after": "a82e24f9c663ac13"
+    },
+    {
+      "type": "edit",
+      "id": "b9c00dc3ae80ab91",
+      "item": {
+        "type": "paragraph",
+        "id": "b9c00dc3ae80ab91",
+        "text": "Internal links are special in several ways. This special behavior is what makes a site a wiki rather than just another website."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2e61559ede16d36e"
+      },
+      "id": "2e61559ede16d36e",
+      "type": "add",
+      "after": "b9c00dc3ae80ab91"
+    },
+    {
+      "type": "edit",
+      "id": "2e61559ede16d36e",
+      "item": {
+        "type": "paragraph",
+        "id": "2e61559ede16d36e",
+        "text": "<blockquote>\n[ [ Page Title ] ]\n</blockquote>"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "a1258bb7b80d6b05",
+        "e883f699530bf331",
+        "a82e24f9c663ac13",
+        "2e61559ede16d36e",
+        "b9c00dc3ae80ab91"
+      ],
+      "id": "2e61559ede16d36e"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecd908092fe78f18"
+      },
+      "id": "ecd908092fe78f18",
+      "type": "add",
+      "after": "b9c00dc3ae80ab91"
+    },
+    {
+      "type": "edit",
+      "id": "ecd908092fe78f18",
+      "item": {
+        "type": "paragraph",
+        "id": "ecd908092fe78f18",
+        "text": "When clicked, an internal wiki link will open the named page. Usually it opens beside the citing page. A [[Shift-Click]] will add the new page to the far right of all already opened pages."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3e82bb4c9610103b"
+      },
+      "id": "3e82bb4c9610103b",
+      "type": "add",
+      "after": "ecd908092fe78f18"
+    },
+    {
+      "type": "edit",
+      "id": "3e82bb4c9610103b",
+      "item": {
+        "type": "paragraph",
+        "id": "3e82bb4c9610103b",
+        "text": "If an internal link names a page that is not present in the [[Site of Origin]] then wiki looks for clues as to where else to look. When you hover over a link you can see the list of clues that wiki has found."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e95edab01e0ee27c"
+      },
+      "id": "e95edab01e0ee27c",
+      "type": "add",
+      "after": "3e82bb4c9610103b"
+    },
+    {
+      "type": "edit",
+      "id": "e95edab01e0ee27c",
+      "item": {
+        "type": "paragraph",
+        "id": "e95edab01e0ee27c",
+        "text": "If wiki cannot find the named page then it will create it. If it can be created in the [[Site of Origin]] then it will. Otherwise it will be created in the browser's [[Local Storage]]."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0f56b0447677870b"
+      },
+      "id": "0f56b0447677870b",
+      "type": "add",
+      "after": "e95edab01e0ee27c"
+    },
+    {
+      "type": "edit",
+      "id": "0f56b0447677870b",
+      "item": {
+        "type": "paragraph",
+        "id": "0f56b0447677870b",
+        "text": "<h3>External Links</h3>"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "454f4ac62eef4016"
+      },
+      "id": "454f4ac62eef4016",
+      "type": "add",
+      "after": "0f56b0447677870b"
+    },
+    {
+      "type": "edit",
+      "id": "454f4ac62eef4016",
+      "item": {
+        "type": "paragraph",
+        "id": "454f4ac62eef4016",
+        "text": "A link to an ordinary web page is created by enclosing the page URL and descriptive text inside single square brackets."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b840648fa4921b91"
+      },
+      "id": "b840648fa4921b91",
+      "type": "add",
+      "after": "454f4ac62eef4016"
+    },
+    {
+      "type": "edit",
+      "id": "b840648fa4921b91",
+      "item": {
+        "type": "paragraph",
+        "id": "b840648fa4921b91",
+        "text": "<blocktext>\n[ http://example.com/somepage.html Some Other Page]\n</blocktext>"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "b840648fa4921b91",
+      "item": {
+        "type": "paragraph",
+        "id": "b840648fa4921b91",
+        "text": "<blockquote>\n[ http://example.com An Example ]\n</blockquote>"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "87068abf1e9ca29f"
+      },
+      "id": "87068abf1e9ca29f",
+      "type": "add",
+      "after": "b840648fa4921b91"
+    },
+    {
+      "type": "edit",
+      "id": "87068abf1e9ca29f",
+      "item": {
+        "type": "paragraph",
+        "id": "87068abf1e9ca29f",
+        "text": "<i>Note: The examples below show spaces around square brackets for clarity. Do not include those spaces.</i>"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "a1258bb7b80d6b05",
+        "87068abf1e9ca29f",
+        "e883f699530bf331",
+        "a82e24f9c663ac13",
+        "2e61559ede16d36e",
+        "b9c00dc3ae80ab91",
+        "ecd908092fe78f18",
+        "3e82bb4c9610103b",
+        "e95edab01e0ee27c",
+        "0f56b0447677870b",
+        "454f4ac62eef4016",
+        "b840648fa4921b91"
+      ],
+      "id": "87068abf1e9ca29f"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9ae99bda9e173aee"
+      },
+      "id": "9ae99bda9e173aee",
+      "type": "add",
+      "after": "b840648fa4921b91"
+    },
+    {
+      "type": "edit",
+      "id": "9ae99bda9e173aee",
+      "item": {
+        "type": "paragraph",
+        "id": "9ae99bda9e173aee",
+        "text": "When clicked, an external link will open the linked page in a new browser tab or possibly a new browser window."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "90a24b9a014a79c5"
+      },
+      "id": "90a24b9a014a79c5",
+      "type": "add",
+      "after": "9ae99bda9e173aee"
+    },
+    {
+      "type": "edit",
+      "id": "90a24b9a014a79c5",
+      "item": {
+        "type": "paragraph",
+        "id": "90a24b9a014a79c5",
+        "text": "Some wikis would show an internal link to an absent page as a [[Red Link]] or some other specialized notation. Federated wiki does not make this distinction."
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "a1258bb7b80d6b05",
+        "87068abf1e9ca29f",
+        "e883f699530bf331",
+        "a82e24f9c663ac13",
+        "2e61559ede16d36e",
+        "b9c00dc3ae80ab91",
+        "ecd908092fe78f18",
+        "3e82bb4c9610103b",
+        "e95edab01e0ee27c",
+        "90a24b9a014a79c5",
+        "0f56b0447677870b",
+        "454f4ac62eef4016",
+        "b840648fa4921b91",
+        "9ae99bda9e173aee"
+      ],
+      "id": "90a24b9a014a79c5"
+    }
+  ]
+}

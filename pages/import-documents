@@ -1,0 +1,382 @@
+{
+  "title": "import-documents",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "94a5e6de553775f4",
+      "text": "Federated wiki is just one more document format that hopes to play well with others and bring something new to the party."
+    },
+    {
+      "type": "paragraph",
+      "id": "6b1a506ddecaf145",
+      "text": "Consider the strengths and weaknesses of federated wiki before choosing an import strategy."
+    },
+    {
+      "type": "paragraph",
+      "id": "99ecfa44398a1db8",
+      "text": "<b>Strengths:</b> Federated wiki format is simple, extensible, and open. It embodies the Creative Commons notions of <i>attribution</i> and <i>share alike</i>. It travels well over networks using familiar web protocols. It can be interactive and mobile friendly."
+    },
+    {
+      "type": "paragraph",
+      "id": "b8ff9825ee625ab7",
+      "text": "<b>Weaknesses:</b> Federated wiki format has limited built-in formatting. It rejects the conventions of the printed page. It is new and unproven, especially in foreign language capabilities."
+    },
+    {
+      "type": "paragraph",
+      "id": "09b262f5bdc5d00e",
+      "text": "Consider the long term purpose of both the original document and the imported version. The wiki version can be either the reference document or a way to find and use the original which remains the ultimate reference."
+    },
+    {
+      "type": "paragraph",
+      "id": "f388657502bebab2",
+      "text": "<b>Wiki as Reference:</b> If wiki's natural collaboration is important for acquiring and refining original material, then keeping and evolving this material in a <i>living document</i> on the wiki makes sense."
+    },
+    {
+      "type": "paragraph",
+      "id": "6f346a657126b881",
+      "text": "<b>Wiki as Index</b> If wiki's natural collaboration will be valued mostly to comprehend and deploy a complex work already published by more traditional means then wiki is best employed as a an index to, summary of, or comments on the work preserved elsewhere."
+    },
+    {
+      "type": "paragraph",
+      "id": "b577ae77c1d0b210",
+      "text": "Consider the methods available for importing content into the federation. A few formats can be dragged and dropped into wiki from the desktop. Other formats can be read by a batch script that emits one or more federated wiki pages all at once."
+    },
+    {
+      "type": "paragraph",
+      "id": "51cecf5bc44e27eb",
+      "text": "<b>Drag and Drop:</b> This is most likely to be useful for importing a passage, an image, or a table of data. See How to [[Add Paragraphs]]. Start by using the export features of your desktop authoring tools to write a compatible text file. Then drag that to a wiki to make individual paragraphs, images or datasets."
+    },
+    {
+      "type": "paragraph",
+      "id": "603122aff855fb31",
+      "text": "<b>Batch Import Script:</b> This requires programming. You are unlikely to find a complete batch converter already written because they typically include many organizational decisions aligned with the needs of a specific work."
+    },
+    {
+      "type": "paragraph",
+      "id": "132cb9f142e4a107",
+      "text": "Don't try to merge distinct works into a single wiki site. Let each work have its own site. Once in the federation, the site's content can be remixed into many other sites including application specific anthologies. "
+    },
+    {
+      "type": "paragraph",
+      "id": "6e8c5ba023b70caa",
+      "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [https://github.com/WardCunningham/Smallest-Federated-Wiki/wiki/List-of-Batch-Import-Examples batch script] to produce a [http://ddd.fed.wiki.org/ whole site] dedicated to this single work."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "94a5e6de553775f4",
+      "item": {
+        "type": "paragraph",
+        "id": "94a5e6de553775f4",
+        "text": "Federated wiki is just one more document format that hopes to play well with others and bring something new to the party."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6b1a506ddecaf145"
+      },
+      "id": "6b1a506ddecaf145",
+      "type": "add",
+      "after": "94a5e6de553775f4"
+    },
+    {
+      "type": "edit",
+      "id": "6b1a506ddecaf145",
+      "item": {
+        "type": "paragraph",
+        "id": "6b1a506ddecaf145",
+        "text": "Consider the strengths and weaknesses of federated wiki before choosing an import strategy."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "99ecfa44398a1db8"
+      },
+      "id": "99ecfa44398a1db8",
+      "type": "add",
+      "after": "6b1a506ddecaf145"
+    },
+    {
+      "type": "edit",
+      "id": "99ecfa44398a1db8",
+      "item": {
+        "type": "paragraph",
+        "id": "99ecfa44398a1db8",
+        "text": "<b>Strengths:</b> Federated wiki format is simple, extensible, and open. It embodies the Creative Commons notions of <i>attribution</i> and <i>share alike</i>. It travels well over networks using familiar web protocols."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b8ff9825ee625ab7"
+      },
+      "id": "b8ff9825ee625ab7",
+      "type": "add",
+      "after": "99ecfa44398a1db8"
+    },
+    {
+      "type": "edit",
+      "id": "b8ff9825ee625ab7",
+      "item": {
+        "type": "paragraph",
+        "id": "b8ff9825ee625ab7",
+        "text": "<b>Weaknesses:</b> Federated wiki format has limited built-in formatting. It rejects the conventions of the printed page. It is new and unproven, especially in foreign language capabilities."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "09b262f5bdc5d00e"
+      },
+      "id": "09b262f5bdc5d00e",
+      "type": "add",
+      "after": "b8ff9825ee625ab7"
+    },
+    {
+      "type": "edit",
+      "id": "99ecfa44398a1db8",
+      "item": {
+        "type": "paragraph",
+        "id": "99ecfa44398a1db8",
+        "text": "<b>Strengths:</b> Federated wiki format is simple, extensible, and open. It embodies the Creative Commons notions of <i>attribution</i> and <i>share alike</i>. It travels well over networks using familiar web protocols. It is interactive and mobile friendly."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "99ecfa44398a1db8",
+      "item": {
+        "type": "paragraph",
+        "id": "99ecfa44398a1db8",
+        "text": "<b>Strengths:</b> Federated wiki format is simple, extensible, and open. It embodies the Creative Commons notions of <i>attribution</i> and <i>share alike</i>. It travels well over networks using familiar web protocols. It can be interactive and mobile friendly."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "09b262f5bdc5d00e",
+      "item": {
+        "type": "paragraph",
+        "id": "09b262f5bdc5d00e",
+        "text": "Consider the long term purpose of both the original document and the imported version. The wiki version can be either the reference document or a way to find and use the original which remains the ultimate reference."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f388657502bebab2"
+      },
+      "id": "f388657502bebab2",
+      "type": "add",
+      "after": "09b262f5bdc5d00e"
+    },
+    {
+      "type": "edit",
+      "id": "f388657502bebab2",
+      "item": {
+        "type": "paragraph",
+        "id": "f388657502bebab2",
+        "text": "<b>Wiki as Reference:</b> If wiki's natural collaboration is important for acquiring and refining original material, then keeping and evolving this material in a <i>living document</i> on the wiki makes sense."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6f346a657126b881"
+      },
+      "id": "6f346a657126b881",
+      "type": "add",
+      "after": "f388657502bebab2"
+    },
+    {
+      "type": "edit",
+      "id": "6f346a657126b881",
+      "item": {
+        "type": "paragraph",
+        "id": "6f346a657126b881",
+        "text": "<b>Wiki as Index</b> If wiki's natural collaboration will be valued mostly to comprehend and deploy a complex work already published by more traditional means then wiki is best employed as a an index to, summary of, or comments on the work preserved elsewhere."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b577ae77c1d0b210"
+      },
+      "id": "b577ae77c1d0b210",
+      "type": "add",
+      "after": "6f346a657126b881"
+    },
+    {
+      "type": "edit",
+      "id": "b577ae77c1d0b210",
+      "item": {
+        "type": "paragraph",
+        "id": "b577ae77c1d0b210",
+        "text": "Consider the methods available for importing content into the federation. A few formats can be dragged and dropped into wiki from the desktop. Other formats can be read by a batch script that emits one or more federated wiki pages all at once."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "51cecf5bc44e27eb"
+      },
+      "id": "51cecf5bc44e27eb",
+      "type": "add",
+      "after": "b577ae77c1d0b210"
+    },
+    {
+      "type": "edit",
+      "id": "51cecf5bc44e27eb",
+      "item": {
+        "type": "paragraph",
+        "id": "51cecf5bc44e27eb",
+        "text": "<b>Drag and Drop:</b> This is most likely to be useful for importing a passage, an image, or a table of data."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "603122aff855fb31"
+      },
+      "id": "603122aff855fb31",
+      "type": "add",
+      "after": "51cecf5bc44e27eb"
+    },
+    {
+      "type": "edit",
+      "id": "603122aff855fb31",
+      "item": {
+        "type": "paragraph",
+        "id": "603122aff855fb31",
+        "text": "<b>Batch Import Script:</b> This requires programming. You are unlikely to find a batch converter already written because they typically include many organizational decisions aligned with the needs of a specific work."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6e8c5ba023b70caa"
+      },
+      "id": "6e8c5ba023b70caa",
+      "type": "add",
+      "after": "603122aff855fb31"
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [https://WardCunningham/ddd batch script] available on GitHub."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [https://github.com/wardcunningham/ddd] available on GitHub."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [http://github.com/wardcunningham/ddd] available on GitHub."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [http://github.com/wardcunningham/ddd batch script] available on GitHub."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "51cecf5bc44e27eb",
+      "item": {
+        "type": "paragraph",
+        "id": "51cecf5bc44e27eb",
+        "text": "<b>Drag and Drop:</b> This is most likely to be useful for importing a passage, an image, or a table of data. See How to [[Add Paragraphs]]. Start by using the export features of your desktop authoring tools to write a compatible text file. Then drag that to a wiki to make individual paragraphs, images or datasets."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' [http://ddd.fed.wiki.org/ Domain Driven Design] software pattern book were imported using a [http://github.com/wardcunningham/ddd batch script] available on GitHub."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "132cb9f142e4a107"
+      },
+      "id": "132cb9f142e4a107",
+      "type": "add",
+      "after": "6e8c5ba023b70caa"
+    },
+    {
+      "type": "edit",
+      "id": "132cb9f142e4a107",
+      "item": {
+        "type": "paragraph",
+        "id": "132cb9f142e4a107",
+        "text": "Don't try to merge distinct works into a single wiki site. Let each work have its own site. Once in the federation, the site's content can be remixed into many other sites including application specific anthologies. "
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "94a5e6de553775f4",
+        "6b1a506ddecaf145",
+        "99ecfa44398a1db8",
+        "b8ff9825ee625ab7",
+        "09b262f5bdc5d00e",
+        "f388657502bebab2",
+        "6f346a657126b881",
+        "b577ae77c1d0b210",
+        "51cecf5bc44e27eb",
+        "603122aff855fb31",
+        "132cb9f142e4a107",
+        "6e8c5ba023b70caa"
+      ],
+      "id": "132cb9f142e4a107"
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [http://github.com/wardcunningham/ddd batch script] to produce a [http://ddd.fed.wiki.org/ whole site] dedicated to this single work."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "603122aff855fb31",
+      "item": {
+        "type": "paragraph",
+        "id": "603122aff855fb31",
+        "text": "<b>Batch Import Script:</b> This requires programming. You are unlikely to find a complete batch converter already written because they typically include many organizational decisions aligned with the needs of a specific work."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "6e8c5ba023b70caa",
+      "item": {
+        "type": "paragraph",
+        "id": "6e8c5ba023b70caa",
+        "text": "Excerpts from Eric Evans' <i>Domain Driven Design</i> software pattern book were imported using a [https://github.com/WardCunningham/Smallest-Federated-Wiki/wiki/List-of-Batch-Import-Examples batch script] to produce a [http://ddd.fed.wiki.org/ whole site] dedicated to this single work."
+      }
+    }
+  ]
+}

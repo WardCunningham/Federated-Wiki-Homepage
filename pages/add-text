@@ -1,1 +1,142 @@
-{"title":"Add Text","story":[{"type":"paragraph","id":"d1d70cb9414bfd62","text":"<b>Edit:</b> Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."},{"type":"paragraph","id":"354b68416f8d322a","text":"<b>Create:</b> Make a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."},{"type":"paragraph","id":"644d12c8c0d73d7c","text":"<b>Delete:</b> If you save an empty paragraph then the paragraph will be removed, including the identity that connects it with earlier versions elsewhere in the federation."}],"journal":[{"type":"edit","id":"d1d70cb9414bfd62","item":{"type":"paragraph","id":"d1d70cb9414bfd62","text":"Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."}},{"item":{"type":"factory","id":"6338e6614d628b1a"},"id":"6338e6614d628b1a","type":"add","after":"d1d70cb9414bfd62"},{"type":"edit","id":"6338e6614d628b1a","item":{"type":"paragraph","id":"6338e6614d628b1a","text":"When you complete an edit you will see an edit action [e] appear in the [[Journal]]. This shows that the wiki server has been updated too."}},{"item":{"type":"factory","id":"354b68416f8d322a"},"id":"354b68416f8d322a","type":"add","after":"6338e6614d628b1a"},{"type":"edit","id":"354b68416f8d322a","item":{"type":"paragraph","id":"354b68416f8d322a","text":"Create a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."}},{"type":"edit","id":"d1d70cb9414bfd62","item":{"type":"paragraph","id":"d1d70cb9414bfd62","text":"<b>Edit:</b> Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."}},{"type":"edit","id":"354b68416f8d322a","item":{"type":"paragraph","id":"354b68416f8d322a","text":"<b>Create:</b> Make a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."}},{"item":{"type":"factory","id":"644d12c8c0d73d7c"},"id":"644d12c8c0d73d7c","type":"add","after":"354b68416f8d322a"},{"type":"edit","id":"644d12c8c0d73d7c","item":{"type":"paragraph","id":"644d12c8c0d73d7c","text":"<b>Delete:</b> If you save an empty paragraph then the paragraph will be removed, including the identity that connects it with earlier versions elsewhere in the federation."}},{"type":"remove","id":"6338e6614d628b1a"}]}
+{
+  "title": "Add Text",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d1d70cb9414bfd62",
+      "text": "<b>Edit:</b> Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."
+    },
+    {
+      "type": "paragraph",
+      "id": "354b68416f8d322a",
+      "text": "<b>Create:</b> Make a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."
+    },
+    {
+      "type": "paragraph",
+      "id": "fd650b6d30cf3fb4",
+      "text": "<b>Split:</b> Press the Return (Enter) key to start a new paragraph while editing an existing one. Try this in the middle of a paragraph to split it into two. Press Delete to rejoin split paragraphs."
+    },
+    {
+      "type": "paragraph",
+      "id": "644d12c8c0d73d7c",
+      "text": "<b>Delete:</b> If you save an empty paragraph then the paragraph will be removed, including the identity that connects it with earlier versions elsewhere in the federation. See also How To [[Remove Paragraphs]]."
+    }
+  ],
+  "journal": [
+    {
+      "type": "edit",
+      "id": "d1d70cb9414bfd62",
+      "item": {
+        "type": "paragraph",
+        "id": "d1d70cb9414bfd62",
+        "text": "Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6338e6614d628b1a"
+      },
+      "id": "6338e6614d628b1a",
+      "type": "add",
+      "after": "d1d70cb9414bfd62"
+    },
+    {
+      "type": "edit",
+      "id": "6338e6614d628b1a",
+      "item": {
+        "type": "paragraph",
+        "id": "6338e6614d628b1a",
+        "text": "When you complete an edit you will see an edit action [e] appear in the [[Journal]]. This shows that the wiki server has been updated too."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "354b68416f8d322a"
+      },
+      "id": "354b68416f8d322a",
+      "type": "add",
+      "after": "6338e6614d628b1a"
+    },
+    {
+      "type": "edit",
+      "id": "354b68416f8d322a",
+      "item": {
+        "type": "paragraph",
+        "id": "354b68416f8d322a",
+        "text": "Create a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "d1d70cb9414bfd62",
+      "item": {
+        "type": "paragraph",
+        "id": "d1d70cb9414bfd62",
+        "text": "<b>Edit:</b> Double click on a paragraph to open the editor. Change as you see fit. Use [[Command-S]] to save or just move on to another place. The save is then automatic."
+      }
+    },
+    {
+      "type": "edit",
+      "id": "354b68416f8d322a",
+      "item": {
+        "type": "paragraph",
+        "id": "354b68416f8d322a",
+        "text": "<b>Create:</b> Make a new paragraph by clicking on the [+] at the bottom of a wiki page. This creates an almost-paragraph called a factory. Drag it to where you want your paragraph and then double click it to start editing as above."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "644d12c8c0d73d7c"
+      },
+      "id": "644d12c8c0d73d7c",
+      "type": "add",
+      "after": "354b68416f8d322a"
+    },
+    {
+      "type": "edit",
+      "id": "644d12c8c0d73d7c",
+      "item": {
+        "type": "paragraph",
+        "id": "644d12c8c0d73d7c",
+        "text": "<b>Delete:</b> If you save an empty paragraph then the paragraph will be removed, including the identity that connects it with earlier versions elsewhere in the federation."
+      }
+    },
+    {
+      "type": "remove",
+      "id": "6338e6614d628b1a"
+    },
+    {
+      "type": "edit",
+      "id": "644d12c8c0d73d7c",
+      "item": {
+        "type": "paragraph",
+        "id": "644d12c8c0d73d7c",
+        "text": "<b>Delete:</b> If you save an empty paragraph then the paragraph will be removed, including the identity that connects it with earlier versions elsewhere in the federation. See also How To [[Remove Paragraphs]]."
+      }
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "fd650b6d30cf3fb4",
+        "text": ""
+      },
+      "id": "fd650b6d30cf3fb4",
+      "type": "add",
+      "after": "354b68416f8d322a",
+      "date": 1340987874771
+    },
+    {
+      "type": "edit",
+      "id": "fd650b6d30cf3fb4",
+      "item": {
+        "type": "paragraph",
+        "id": "fd650b6d30cf3fb4",
+        "text": "<b>Split:</b> Press the Return (Enter) key to start a new paragraph while editing an existing one. Try this in the middle of a paragraph to split it into two. Press Delete to rejoin split paragraphs."
+      },
+      "date": 1340987876109
+    }
+  ]
+}
